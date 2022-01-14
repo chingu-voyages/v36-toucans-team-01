@@ -13,11 +13,11 @@
 </head>
 
 <body>
-    <main class="container">
+    <main class="signUp">
         <!-- logo -->
-        <img src="images/100_drycleannyc.png" alt="logo of dry clean nyc">
+        <img src="images/100_drycleannyc.png" alt="logo of dry clean nyc" class="signUp-logo">
         <!-- form -->
-        <form class="row g-3 w-50">
+        <form class="row g-3 w-50 signUp-form">
             <!-- heading -->
             <h1>Create an account</h1>
             <!-- first name -->
@@ -40,20 +40,23 @@
                 <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" autocomplete="email">
             </div>
-            <!-- cancel button -->
-            <button type="button">
-                cancel
-            </button>
-            <!-- continue button  -->
-            <button type="button">
-                continue
-            </button>
+
+            <div class="btn-signUp">
+                <!-- cancel button -->
+                <a href="sign-in.html" class="btn-cancel">
+                    Cancel
+                </a>
+                <!-- continue button  -->
+                <a href="#" class="btn-continue">
+                    Continue
+                </a>
+            </div>
         </form>
     </main>
 
 
-
-    <footer class="footer mx-auto">
+<!-- footer -->
+    <footer class="footer mx-auto sticky-signup">
         <div class="container">
             <p>3279 Westchester Avenue</p>
             <p>Bronx NY, 10461</p>
