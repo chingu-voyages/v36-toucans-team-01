@@ -58,28 +58,10 @@
     padding: 10px 0;
 } 
 
-.accordion-header{
-    text-align: center;
-}
-
 .accordion{
     width: 500px;
     padding: 30px 100px;
-    margin-top: 1rem;
     box-shadow: 0px 1px 3px rgb(100 100 100 / 65%);
-}
-
-.accordion-item{
-    margin-bottom: 30px;
-    border: none;
-}
-
-.accordion-body{
-    padding: 1rem 0;
-}
-
-.input-group{
-    padding-bottom: 15px;
 }
 
 .btn-send{
