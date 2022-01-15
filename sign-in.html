@@ -35,23 +35,24 @@
                         <div class="accordion-body">
                             <form action="">
                                 <!-- email -->
+                                
                                 <div class="input-group">
-                                    <span><i class="fas fa-envelope"></i></span>
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                                     <input type="email" name="email" placeholder="you@example.com" class="form-control"
                                         value="" autocomplete="username">
                                 </div>
                                 <!-- password -->
                                 <div class="input-group">
-                                    <span class="input-group-addon hidden-xs"><i class="fas fa-lock"></i></span>
-                                    <input type="email" name="email" placeholder="you@example.com" class="form-control"
-                                        value="" autocomplete="username">
+                                    <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                    <input type="password" name="password" placeholder="password" class="form-control"
+                                        value="" autocomplete="current-password">
                                 </div>
                                 <!-- forgot password -->
                                 <div>
-                                    <p><a href="#">Forgot your password?</a></p>
+                                    <p class="float-start"><a href="#">Forgot your password?</a></p>
                                 </div>
                                 <!-- sign in button -->
-                                <button>
+                                <button class="btn-send float-end ">
                                     Sign in
                                 </button>
                             </form>
@@ -72,12 +73,12 @@
                             <form action="">
                                 <!-- Phone input -->
                                 <div class="input-group">
-                                    <span><i class="fas fa-envelope"></i></span>
+                                    <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                                     <input type="tel" name="tel" placeholder="+44" class="form-control" value=""
                                         autocomplete="tel">
                                 </div>
                                 <!-- sign in button -->
-                                <button>
+                                <button class="float-end btn-send">
                                     Sign code
                                 </button>
                             </form>

@@ -104,3 +104,21 @@
     margin-bottom: 30px;
     border: none;
 }
+
+.accordion-body{
+    padding: 1rem 0;
+}
+
+.input-group{
+    padding-bottom: 15px;
+}
+
+.btn-send{
+    border-radius: 0px;
+    border: 1px solid;
+    color: #333;
+    background-color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
