@@ -150,7 +150,7 @@
 
 /* reviews section */
 .reviews{
-    padding: 200px 0;
+    padding: 200px 5%;
 }
 
 /* indicators */
@@ -173,6 +173,24 @@
     background-color: #0081FF !important;
 }
 
+/* card */
+.review-col{
+    min-height: 400px;
+}
 
+/* image */
+.review-img{
+    top: -50px;
+    margin-left: 30px;
+    margin-bottom: -30px;
+}
+
+/* stars */
+.fa-star{
+    color: rgb(255, 162, 1);
+    font-size: 25px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
 
 /* reviews section ends */
