@@ -11,18 +11,42 @@
 
 }
 
-.nav-small {
-    /* font-family: Arial,Helvetica,sans-serif; */
-    letter-spacing: .0em;
-    line-height: 1em;
-    font-family: Rubik;
+.font-2{
+    font-size: 14px;
+    line-height: 1rem;
+    font-family: Roboto Slab;
     font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    letter-spacing: .2em;
-    line-height: 1.6em;
-    text-transform: none;
-    color: #000;
+}
+.font-3{
+      
+    font-family: Rubik;
+font-weight: 700;
+font-style: normal;
+font-size: 1.8rem;
+letter-spacing: .2em;
+
+    vertical-align: middle;
+
+}
+.font-4{
+  font-size: 20px;
+  color: #3f3e3e;
+}
+.font-5{
+  font-weight: 700;
+}
+.nav-small{
+/* font-family: Arial,Helvetica,sans-serif; */
+letter-spacing: .0em;
+line-height: 1em;
+font-family: Rubik;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+letter-spacing: .2em;
+line-height: 1.6em;
+text-transform: none;
+color: #000;
 }
 
 .nav-button {
@@ -35,31 +59,21 @@
 }
 
 
+.main-footer-container{
+background: #272835;
+padding: 20px 0px;
+height: 400px;
+/* padding-top: 10% */
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
-
-
-.main-footer-container {
-    background: #272835;
-    padding: 20px 0px;
-    height: 400px;
-    padding-top: 10%
+.footer-container{
+display: flex;
+justify-content: center;
+align-items: space-between;
+gap: 2;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: space-between;
-}
-
-.footer-item {
-    font-size: 1.5rem;
-}
 
 .footer-item img {
     width: 3rem;
@@ -89,10 +103,7 @@
         display: block;
         padding: 5px 0;
     }
-
 }
-
-
 
 /* hero-page section */
 
@@ -143,10 +154,84 @@
 
 
 
+/* hero-page section ends */
+/* How Dry Clean NYC works start */
 
+.nyc-img{
+  overflow-x: hidden;
+}
+.nyc-arrow {
+  background-color:#30588b !important;
+}
+.nyc-display-img{
+  width:21rem;
+}
+.nyc-button{
+  -webkit-padding-start: 0px;
+  } 
+  .nyc-arrow .nyc-icon2 {
+  font-size: 2.3em;
+  vertical-align: middle;
+  padding-top: 9px;
+  }
 
+@media (max-width:768px) {
+.nyc-display-img{
+  width:10rem;
+}
+.nyc-header{
+  font-size: 1.5rem;
+  margin-top:3rem ;
+}
+.nyc-pTag{
+  font-size: 1rem!important;
+}
+.nyc-icon{
+    position: relative;
+    top:10rem;
+}
+.nyc-first{
+  overflow-y: hidden;
+}
 
+}
 
+@media (max-width:425px) {
+  .nyc-display-img{
+    width:13rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  .nyc-header{
+    font-size: 1.2rem;
+    margin-top:3rem ;
+    text-align: center;
+  }
+  .nyc-pTag{
+    font-size: 0.8rem!important;
+    text-align: center;
+    word-break: keep-all;
+  }
+  .nyc-icon{
+      display: none;
+  }
+  .nyc-arrow {
+    margin-top: 2rem;
+    width:20rem !important;
+    height: 5rem !important; 
+  }
+  }
+  @media (max-width:320px) {
+    .nyc-arrow {
+      margin-top: 2rem;
+      width:16rem !important;
+      height: 5rem !important; 
+    }
+  }
+
+/* How Dry Clean NYC works  ends */
 
 /* reviews section */
 .reviews{
@@ -217,5 +302,46 @@
 }
 }
 /* reviews section ends */
+
+
+/* why nyc section starts here */
+.why-nyc{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/background.png);
+  background-color:#a9adb6 ;
+
+}
+.why-nyc-image-div{
+  margin-top: 6rem;
+}
+
+ol li {
+  list-style-type: none;
+
+}
+ol li:before {
+
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background: url(../images/images.jpg);
+
+text-align: center;
+}
+ @media (max-width: 425px) {
+.font-3{
+font-size: 14px;
+}
+.font-4{
+  font-size: 12px;
+  color: #3f3e3e;
+}
+
+  
+  }
+
+  /* why nyc style end here */
 
 
