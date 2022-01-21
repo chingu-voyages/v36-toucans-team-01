@@ -10,6 +10,30 @@ text-transform: uppercase;
       /* display: inline-block; */
 
 }
+.font-2{
+    font-size: 14px;
+    line-height: 1rem;
+    font-family: Roboto Slab;
+    font-weight: 400;
+}
+.font-3{
+      
+    font-family: Rubik;
+font-weight: 700;
+font-style: normal;
+font-size: 1.8rem;
+letter-spacing: .2em;
+
+    vertical-align: middle;
+
+}
+.font-4{
+  font-size: 20px;
+  color: #3f3e3e;
+}
+.font-5{
+  font-weight: 700;
+}
 .nav-small{
 /* font-family: Arial,Helvetica,sans-serif; */
 letter-spacing: .0em;
@@ -34,11 +58,6 @@ border: none;
 
 
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
 
 
 
@@ -46,7 +65,7 @@ border: none;
 background: #272835;
 padding: 20px 0px;
 height: 400px;
-padding-top: 10%
+/* padding-top: 10% */
 
 }
 
@@ -54,11 +73,10 @@ padding-top: 10%
 display: flex;
 justify-content: center;
 align-items: space-between;
+gap: 2;
 }
 
-.footer-item{
-font-size: 1.5rem;
-}
+
 
 .footer-item img{
 width: 3rem;
@@ -88,6 +106,53 @@ padding-top: 10px;
     }
 
 } 
+
+/* hero-page section */
+
+.heropage-img {
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 100vh;
+    display: block;
+  }
+  .heropage-text {
+    padding-top: 8rem;
+  }
+  .heropage-h2{
+    font-size: 2.5rem;
+    color: #363636;
+  }
+    .heropage-p{
+          font-size: 1.4rem;
+       }
+  @media (max-width: 320px) {
+    .heropage-text {
+      padding-top: 5rem;
+    }
+  }
+  @media (max-width: 425px) {
+    /* .heropage-text{
+         padding-top: 5rem;
+      } */
+    .heropage-h2{
+        font-size: 18px;
+      }
+      .heropage-p{
+          font-size: 13px;
+       }
+  }
+  @media (max-width: 375px) {
+    .heropage-text {
+      padding-top: 5rem;
+    }
+    /* .heropage-h2{
+        word-wrap: none;
+      } */
+  }
+
+/* hero-page section ends */
 
 /* hero-page section */
 
@@ -211,3 +276,45 @@ padding-top: 10px;
   }
 
 /* How Dry Clean NYC works  ends */
+
+
+/* why nyc section starts here */
+.why-nyc{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../images/background.png);
+  background-color:#a9adb6 ;
+
+}
+.why-nyc-image-div{
+  margin-top: 6rem;
+}
+
+ol li {
+  list-style-type: none;
+
+}
+ol li:before {
+
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background: url(../images/images.jpg);
+
+text-align: center;
+}
+ @media (max-width: 425px) {
+.font-3{
+font-size: 14px;
+}
+.font-4{
+  font-size: 12px;
+  color: #3f3e3e;
+}
+
+  
+  }
+
+  /* why nyc style end here */
+
