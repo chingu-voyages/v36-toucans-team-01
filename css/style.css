@@ -102,6 +102,12 @@ padding-top: 10px;
   .heropage-text {
     padding-top: 10rem;
   }
+  .nyc-icon-color{
+    color: #13478abe;
+  }
+  .heropage-button{
+    background-color: #30588b!important;
+  }
   @media (max-width: 320px) {
     .heropage-text {
       padding-top: 5rem;
@@ -128,3 +134,80 @@ padding-top: 10px;
   }
 
 /* hero-page section ends */
+/* How Dry Clean NYC works start */
+
+.nyc-img{
+  overflow-x: hidden;
+}
+.nyc-arrow {
+  background-color:#30588b !important;
+}
+.nyc-display-img{
+  width:21rem;
+}
+.nyc-button{
+  -webkit-padding-start: 0px;
+  } 
+  .nyc-arrow .nyc-icon2 {
+  font-size: 2.3em;
+  vertical-align: middle;
+  padding-top: 9px;
+  }
+
+@media (max-width:768px) {
+.nyc-display-img{
+  width:10rem;
+}
+.nyc-header{
+  font-size: 1.5rem;
+  margin-top:3rem ;
+}
+.nyc-pTag{
+  font-size: 1rem!important;
+}
+.nyc-icon{
+    position: relative;
+    top:10rem;
+}
+.nyc-first{
+  overflow-y: hidden;
+}
+
+}
+
+@media (max-width:425px) {
+  .nyc-display-img{
+    width:13rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  .nyc-header{
+    font-size: 1.2rem;
+    margin-top:3rem ;
+    text-align: center;
+  }
+  .nyc-pTag{
+    font-size: 0.8rem!important;
+    text-align: center;
+    word-break: keep-all;
+  }
+  .nyc-icon{
+      display: none;
+  }
+  .nyc-arrow {
+    margin-top: 2rem;
+    width:20rem !important;
+    height: 5rem !important; 
+  }
+  }
+  @media (max-width:320px) {
+    .nyc-arrow {
+      margin-top: 2rem;
+      width:16rem !important;
+      height: 5rem !important; 
+    }
+  }
+
+/* How Dry Clean NYC works  ends */
