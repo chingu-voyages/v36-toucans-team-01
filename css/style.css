@@ -177,11 +177,13 @@
 /* card */
 .review-card{
     min-height: 340px;
-    box-shadow: 0px 1px 3px rgb(100 100 100 / 65%);
-
+    border-radius: 12px;
 }
 .review-col{
     min-height: 340px;
+}
+.card-text{
+    word-break: break-all;
 }
 
 /* image */
@@ -203,4 +205,15 @@
     margin-top: 10px;
 }
 
+.hide{
+    display:block;
+}
+@media (max-width: 768px) {
+.hide{
+    display: none;
+    height: 0px;
+}
+}
 /* reviews section ends */
+
+

@@ -89,17 +89,28 @@
 
   </header>
 
+
   <!-- reviews section -->
   <section class="reviews">
     <h2 class="text-center">Reviews</h2>
+    <!-- carousel-indicators -->
     <div id="carouselExampleIndicators" class="carousel slide mt-5 pt-5" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
       <div class="carousel-inner overflow-visible">
         <div class="carousel-item active">
           <div class="row row-cols-1 row-cols-md-3 g-4">
+            <!-- review 1 -->
             <div class="col review-col">
-              <div class="card review-card">
-                <img src="images/unnamed (1).png" class="review-img position-relative w-25 " alt="...">
-                <div class="card-body">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
                   <h5 class="card-title">Nameas Surname</h5>
                   <p>
                     <i class="fa fa-star"></i>
@@ -107,10 +118,10 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                   </p>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua.</p>
-                  <p><span><svg role="img" aria-label="google logo" width="24" height="24" viewBox="0 0 16 16"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip_google_logo_background)">
                           <path
                             d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
@@ -130,14 +141,15 @@
                             <rect width="16" height="16" fill="white"></rect>
                           </clipPath>
                         </defs>
-                      </svg><span class="review-date"> 3 weeks</span></p>
+                      </svg><span class="review-date "> 3 weeks</span></p>
                 </div>
               </div>
             </div>
-            <div class="col review-col">
-              <div class="card review-card">
-                <img src="images/unnamed (1).png" class="review-img position-relative w-25 " alt="...">
-                <div class="card-body">
+            <!-- review 2 -->
+            <div class="col review-col hide">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
                   <h5 class="card-title">Nameas Surname</h5>
                   <p>
                     <i class="fa fa-star"></i>
@@ -145,10 +157,10 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                   </p>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua.</p>
-                  <p><span><svg role="img" aria-label="google logo" width="24" height="24" viewBox="0 0 16 16"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip_google_logo_background)">
                           <path
                             d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
@@ -168,14 +180,14 @@
                             <rect width="16" height="16" fill="white"></rect>
                           </clipPath>
                         </defs>
-                      </svg> <span class="review-date"> 3 weeks</span></p>
+                      </svg><span class="review-date "> 3 weeks</span></p>
                 </div>
               </div>
             </div>
-            <div class="col review-col">
-              <div class="card review-card">
-                <img src="images/unnamed (1).png" class="review-img position-relative w-25 " alt="...">
-                <div class="card-body">
+            <div class="col review-col hide">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
                   <h5 class="card-title">Nameas Surname</h5>
                   <p>
                     <i class="fa fa-star"></i>
@@ -183,10 +195,10 @@
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>
                   </p>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua.</p>
-                  <p><span><svg role="img" aria-label="google logo" width="24" height="24" viewBox="0 0 16 16"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip_google_logo_background)">
                           <path
                             d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
@@ -206,126 +218,7 @@
                             <rect width="16" height="16" fill="white"></rect>
                           </clipPath>
                         </defs>
-                      </svg> <span class="review-date"> 3 weeks</span></p>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col review-col">
-              <div class="card review-card">
-                <img src="images/unnamed (1).png" class="review-img position-relative w-25 " alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Nameas Surname</h5>
-                  <p>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </p>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
-                  <p><span><svg role="img" aria-label="google logo" width="24" height="24" viewBox="0 0 16 16"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip_google_logo_background)">
-                          <path
-                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
-                            fill="#FBBB00"></path>
-                          <path
-                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
-                            fill="#518EF8"></path>
-                          <path
-                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
-                            fill="#28B446"></path>
-                          <path
-                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
-                            fill="#F14336"></path>
-                        </g>
-                        <defs>
-                          <clipPath id="clip_google_logo_background">
-                            <rect width="16" height="16" fill="white"></rect>
-                          </clipPath>
-                        </defs>
-                      </svg> <span class="review-date"> 3 weeks</span></p>
-                </div>
-              </div>
-            </div>
-            <div class="col review-col">
-              <div class="card review-card">
-                <img src="images/unnamed (1).png" class="review-img position-relative w-25 " alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Nameas Surname</h5>
-                  <p>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </p>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
-                  <p><span><svg role="img" aria-label="google logo" width="24" height="24" viewBox="0 0 16 16"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip_google_logo_background)">
-                          <path
-                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
-                            fill="#FBBB00"></path>
-                          <path
-                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
-                            fill="#518EF8"></path>
-                          <path
-                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
-                            fill="#28B446"></path>
-                          <path
-                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
-                            fill="#F14336"></path>
-                        </g>
-                        <defs>
-                          <clipPath id="clip_google_logo_background">
-                            <rect width="16" height="16" fill="white"></rect>
-                          </clipPath>
-                        </defs>
-                      </svg> <span class="review-date"> 3 weeks</span></p>
-                </div>
-              </div>
-            </div>
-            <div class="col review-col">
-              <div class="card review-card">
-                <img src="images/unnamed (1).png" class="review-img position-relative w-25 " alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Nameas Surname</h5>
-                  <p>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                  </p>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
-                  <p><span><svg role="img" aria-label="google logo" width="24" height="24" viewBox="0 0 16 16"
-                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip_google_logo_background)">
-                          <path
-                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
-                            fill="#FBBB00"></path>
-                          <path
-                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
-                            fill="#518EF8"></path>
-                          <path
-                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
-                            fill="#28B446"></path>
-                          <path
-                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
-                            fill="#F14336"></path>
-                        </g>
-                        <defs>
-                          <clipPath id="clip_google_logo_background">
-                            <rect width="16" height="16" fill="white"></rect>
-                          </clipPath>
-                        </defs>
-                      </svg> <span class="review-date"> 3 weeks</span></p>
+                      </svg><span class="review-date "> 3 weeks</span></p>
                 </div>
               </div>
             </div>
@@ -333,90 +226,236 @@
         </div>
         <div class="carousel-item">
           <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="images/unnamed (1).png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Name Surname</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <div class="col review-col">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
+                  <h5 class="card-title">Nameas Surname</h5>
+                  <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip_google_logo_background)">
+                          <path
+                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
+                            fill="#FBBB00"></path>
+                          <path
+                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
+                            fill="#518EF8"></path>
+                          <path
+                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
+                            fill="#28B446"></path>
+                          <path
+                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
+                            fill="#F14336"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip_google_logo_background">
+                            <rect width="16" height="16" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg><span class="review-date "> 3 weeks</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col review-col hide">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
+                  <h5 class="card-title">Nameas Surname</h5>
+                  <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip_google_logo_background)">
+                          <path
+                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
+                            fill="#FBBB00"></path>
+                          <path
+                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
+                            fill="#518EF8"></path>
+                          <path
+                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
+                            fill="#28B446"></path>
+                          <path
+                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
+                            fill="#F14336"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip_google_logo_background">
+                            <rect width="16" height="16" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg><span class="review-date "> 3 weeks</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col review-col hide">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
+                  <h5 class="card-title">Nameas Surname</h5>
+                  <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip_google_logo_background)">
+                          <path
+                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
+                            fill="#FBBB00"></path>
+                          <path
+                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
+                            fill="#518EF8"></path>
+                          <path
+                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
+                            fill="#28B446"></path>
+                          <path
+                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
+                            fill="#F14336"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip_google_logo_background">
+                            <rect width="16" height="16" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg><span class="review-date "> 3 weeks</span></p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col review-col">
-            <div class="card review-card">
-              <img src="images/unnamed (1).png" class="review-img position-relative w-25 " alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Nameas Surname</h5>
-                <p>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </p>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.</p>
-                <p><span><svg role="img" aria-label="google logo" width="24" height="24" viewBox="0 0 16 16"
-                      fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip_google_logo_background)">
-                        <path
-                          d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
-                          fill="#FBBB00"></path>
-                        <path
-                          d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
-                          fill="#518EF8"></path>
-                        <path
-                          d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
-                          fill="#28B446"></path>
-                        <path
-                          d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
-                          fill="#F14336"></path>
-                      </g>
-                      <defs>
-                        <clipPath id="clip_google_logo_background">
-                          <rect width="16" height="16" fill="white"></rect>
-                        </clipPath>
-                      </defs>
-                    </svg> <span class="review-date"> 3 weeks</span></p>
+        </div>
+        <div class="carousel-item">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col review-col">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
+                  <h5 class="card-title">Nameas Surname</h5>
+                  <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip_google_logo_background)">
+                          <path
+                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
+                            fill="#FBBB00"></path>
+                          <path
+                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
+                            fill="#518EF8"></path>
+                          <path
+                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
+                            fill="#28B446"></path>
+                          <path
+                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
+                            fill="#F14336"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip_google_logo_background">
+                            <rect width="16" height="16" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg><span class="review-date "> 3 weeks</span></p>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col review-col">
-            <div class="card review-card">
-              <img src="images/unnamed (1).png" class="review-img position-relative w-25 " alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Nameas Surname</h5>
-                <p>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </p>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua.</p>
-                <p><span><svg role="img" aria-label="google logo" width="24" height="24" viewBox="0 0 16 16"
-                      fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip_google_logo_background)">
-                        <path
-                          d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
-                          fill="#FBBB00"></path>
-                        <path
-                          d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
-                          fill="#518EF8"></path>
-                        <path
-                          d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
-                          fill="#28B446"></path>
-                        <path
-                          d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
-                          fill="#F14336"></path>
-                      </g>
-                      <defs>
-                        <clipPath id="clip_google_logo_background">
-                          <rect width="16" height="16" fill="white"></rect>
-                        </clipPath>
-                      </defs>
-                    </svg><span class="review-date"> 3 weeks</span></p>
+            <div class="col review-col hide">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
+                  <h5 class="card-title">Nameas Surname</h5>
+                  <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip_google_logo_background)">
+                          <path
+                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
+                            fill="#FBBB00"></path>
+                          <path
+                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
+                            fill="#518EF8"></path>
+                          <path
+                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
+                            fill="#28B446"></path>
+                          <path
+                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
+                            fill="#F14336"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip_google_logo_background">
+                            <rect width="16" height="16" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg><span class="review-date "> 3 weeks</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="col review-col hide">
+              <div class="card review-card shadow">
+                <img src="images/unnamed (1).png" class="review-img position-relative w-25" alt="...">
+                <div class="card-body px-4">
+                  <h5 class="card-title">Nameas Surname</h5>
+                  <p>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </p>
+                  <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="my-5"><span><svg role="img" aria-label="google logo" width="24" height="24"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip_google_logo_background)">
+                          <path
+                            d="M3.54594 9.66899L2.989 11.7481L0.953406 11.7912C0.345063 10.6628 0 9.37186 0 7.99999C0 6.67339 0.322625 5.42239 0.8945 4.32086H0.894937L2.70719 4.65311L3.50106 6.45449C3.33491 6.93889 3.24434 7.45889 3.24434 7.99999C3.24441 8.58724 3.35078 9.14989 3.54594 9.66899Z"
+                            fill="#FBBB00"></path>
+                          <path
+                            d="M15.8602 6.50552C15.9521 6.98946 16 7.48924 16 8.00002C16 8.57277 15.9398 9.13146 15.8251 9.67037C15.4357 11.5042 14.4181 13.1055 13.0084 14.2387L13.008 14.2383L10.7253 14.1218L10.4023 12.1051C11.3377 11.5565 12.0687 10.6981 12.4537 9.67037H8.1759V6.50552H12.5161H15.8602Z"
+                            fill="#518EF8"></path>
+                          <path
+                            d="M13.008 14.2382L13.0084 14.2387C11.6375 15.3406 9.8959 16 8.00009 16C4.95349 16 2.30471 14.2971 0.953491 11.7912L3.54602 9.66901C4.22162 11.4721 5.96096 12.7556 8.00009 12.7556C8.87655 12.7556 9.69768 12.5187 10.4023 12.105L13.008 14.2382Z"
+                            fill="#28B446"></path>
+                          <path
+                            d="M13.1064 1.84175L10.5147 3.9635C9.7855 3.50769 8.9235 3.24437 8 3.24437C5.91472 3.24437 4.14284 4.58678 3.50109 6.4545L0.894938 4.32087H0.894501C2.22594 1.75384 4.90813 0 8 0C9.94109 0 11.7209 0.691437 13.1064 1.84175Z"
+                            fill="#F14336"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="clip_google_logo_background">
+                            <rect width="16" height="16" fill="white"></rect>
+                          </clipPath>
+                        </defs>
+                      </svg><span class="review-date "> 3 weeks</span></p>
+                </div>
               </div>
             </div>
           </div>
@@ -424,16 +463,6 @@
       </div>
     </div>
 
-    <!-- buttons -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    </div>
   </section>
 
   <!---footer-->
@@ -487,10 +516,10 @@
 
   </footer>
 
-<script src="js/main.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script> 
+  </script>
 
 </body>
 
