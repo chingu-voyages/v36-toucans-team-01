@@ -161,10 +161,10 @@
 }
 
 .carousel-indicators [data-bs-target] {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     border-radius: 100%;
-    border: 2px solid grey;
+    border: 1px solid grey;
     background-color: white;
 }
 
@@ -176,11 +176,12 @@
 
 /* card */
 .review-card{
-    min-height: 340px;
+    min-height: 380px;
     border-radius: 12px;
+    transition:.3s;
 }
-.review-col{
-    min-height: 340px;
+.review-card:hover{
+  opacity: 0.7;
 }
 .card-text{
     word-break: break-all;
@@ -193,7 +194,6 @@
     margin-bottom: -30px;
 }
 .review-date{
-    color: gray;
     font-size: 14px;
     margin-left: 10px;
 }
@@ -204,7 +204,6 @@
     margin-right: 5px;
     margin-top: 10px;
 }
-
 .hide{
     display:block;
 }
@@ -212,6 +211,9 @@
 .hide{
     display: none;
     height: 0px;
+}
+.review-card{
+    min-height: 340px;
 }
 }
 /* reviews section ends */
