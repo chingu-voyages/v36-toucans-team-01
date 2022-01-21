@@ -1,16 +1,15 @@
-.font-1 {
+.font-1{
     background-color: transparent;
     font-family: Rubik;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 12px;
-    letter-spacing: .2em;
-    text-transform: uppercase;
+font-weight: 400;
+font-style: normal;
+font-size: 12px;
+letter-spacing: .2em;
+text-transform: uppercase;
     vertical-align: middle;
-    /* display: inline-block; */
+      /* display: inline-block; */
 
 }
-
 .font-2{
     font-size: 14px;
     line-height: 1rem;
@@ -48,15 +47,18 @@ line-height: 1.6em;
 text-transform: none;
 color: #000;
 }
-
-.nav-button {
-    background: #30588b;
-    color: #fff !important;
-    padding: 7px;
-    border-radius: 2px;
-    width: 90px;
-    border: none;
+.nav-button{
+background: #30588b;
+color: #fff !important;
+padding: 7px;
+border-radius: 2px;
+width: 90px;
+border: none;  
 }
+
+
+
+
 
 
 .main-footer-container{
@@ -75,35 +77,35 @@ gap: 2;
 }
 
 
-.footer-item img {
-    width: 3rem;
-    margin-bottom: 10px;
+
+.footer-item img{
+width: 3rem;
+margin-bottom: 10px;
 }
 
-.copy-right {
-    background: #000;
-    height: 40px;
-    padding-top: 10px;
+.copy-right{
+background: #000;
+height: 40px;
+padding-top: 10px;    
 }
 
 
 
 /*media query*/
 
-@media(max-width: 760px) {
-    .main-footer-container {
+@media(max-width: 760px){
+    .main-footer-container{
         height: 600px;
     }
-
-    .footer-container {
+    .footer-container{
         display: block;
     }
-
-    .footer-item {
+    .footer-item{
         display: block;
         padding: 5px 0;
     }
-}
+
+} 
 
 /* hero-page section */
 
@@ -114,45 +116,87 @@ gap: 2;
     background-position: 50% 0;
     height: 100vh;
     display: block;
-}
-
-.heropage-text {
-    padding-top: 10rem;
-}
-
-@media (max-width: 320px) {
+  }
+  .heropage-text {
+    padding-top: 8rem;
+  }
+  .heropage-h2{
+    font-size: 2.5rem;
+    color: #363636;
+  }
+    .heropage-p{
+          font-size: 1.4rem;
+       }
+  @media (max-width: 320px) {
     .heropage-text {
-        padding-top: 5rem;
+      padding-top: 5rem;
     }
-}
-
-@media (max-width: 425px) {
-
+  }
+  @media (max-width: 425px) {
     /* .heropage-text{
          padding-top: 5rem;
       } */
-    .heropage-h2 {
+    .heropage-h2{
         font-size: 18px;
-    }
-
-    .heropage-p {
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 375px) {
+      }
+      .heropage-p{
+          font-size: 13px;
+       }
+  }
+  @media (max-width: 375px) {
     .heropage-text {
-        padding-top: 7rem;
+      padding-top: 5rem;
     }
-
     /* .heropage-h2{
         word-wrap: none;
       } */
-}
+  }
 
 /* hero-page section ends */
 
+/* hero-page section */
 
+.heropage-img {
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    height: 100vh;
+    display: block;
+  }
+  .heropage-text {
+    padding-top: 10rem;
+  }
+  .nyc-icon-color{
+    color: #13478abe;
+  }
+  .heropage-button{
+    background-color: #30588b!important;
+  }
+  @media (max-width: 320px) {
+    .heropage-text {
+      padding-top: 5rem;
+    }
+  }
+  @media (max-width: 425px) {
+    /* .heropage-text{
+         padding-top: 5rem;
+      } */
+    .heropage-h2{
+        font-size: 18px;
+      }
+      .heropage-p{
+          font-size: 13px;
+       }
+  }
+  @media (max-width: 375px) {
+    .heropage-text {
+      padding-top: 7rem;
+    }
+    /* .heropage-h2{
+        word-wrap: none;
+      } */
+  }
 
 /* hero-page section ends */
 /* How Dry Clean NYC works start */
@@ -233,7 +277,8 @@ gap: 2;
 
 /* How Dry Clean NYC works  ends */
 
-/* reviews section */
+
+/* start of reviews section */
 .reviews{
     padding: 200px 5%;
     background-color: #f1f1f3;
@@ -303,7 +348,6 @@ gap: 2;
 }
 /* reviews section ends */
 
-
 /* why nyc section starts here */
 .why-nyc{
   background-position: center;
@@ -343,5 +387,3 @@ font-size: 14px;
   }
 
   /* why nyc style end here */
-
-
