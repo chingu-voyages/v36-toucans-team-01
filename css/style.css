@@ -204,7 +204,9 @@ padding-top: 10px;
 
 /* hero-page section ends */
 /* How Dry Clean NYC works start */
-
+.nyc-base-header{
+  margin-top: 10rem;
+}
 .nyc-img{
   overflow-x: hidden;
 }
@@ -223,6 +225,9 @@ padding-top: 10px;
   padding-top: 9px;
   }
 
+  .nyc-base-footer{
+    margin-bottom: 10rem;
+  }
 @media (max-width:768px) {
 .nyc-display-img{
   width:10rem;
@@ -392,6 +397,54 @@ font-size: 14px;
 
   /* why nyc style end here */
 
+  /* Retail Locations and Service Area starts here */
+  .retail-location{
+    background-color: #f3f3f5;
+  }
+  .retail-header{
+    margin: 5rem 0 2rem 0;
+  }
+  .service-area{
+    letter-spacing: 1.5px;
+  }
+  .retail-location-map {
+    margin-bottom: 7rem;
+  }
+  .retail-loc {
+    display: none;
+  }
+
+  @media (max-width:768px) {
+    .location-map {
+      width: 22rem;
+    }
+    .service-area{
+      font-size: 15px;
+    }
+    .last-service-area{
+      width: 8rem;
+    }
+  }
+  @media (max-width:425px) {
+    .retail-text {
+      font-size: 18px !important;
+    }
+    .service-area{
+      font-size: 13px;
+    }  
+
+    .last-retail-service{
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width:320px) {
+    .location-map{
+      width: 275px;
+    }
+  }
+  /* Retail Locations and Service Area Ends here */
+=======
+
 
   /* price list section starts here */
   .price-list{
@@ -482,3 +535,4 @@ font-size: 14px;
     padding: 70px 10px 150px 10px;
   }
   }
+
