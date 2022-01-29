@@ -1,4 +1,5 @@
-# Dry Clean NYC
+  <h2 align="center">Dry Clean NYC clone</h2>
+
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -16,12 +17,12 @@ This project is built using:
 * [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 * [HTML](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.&text=HTML%20provides%20a%20means%20to,links%2C%20quotes%20and%20other%20items.)
 
-## 🚧 Features or Example
+## 🚧 Features 
 
 See the [open issues](https://github.com/chingu-voyages/v36-toucans-team-01/issues) for a list of proposed features (and known issues).
 
 
-## Installation or Getting Started
+## 💾 Getting Started
 
 This run the website use one of the following methods:
 * Clone the project and compile it yourself
@@ -30,8 +31,8 @@ This run the website use one of the following methods:
 
 ## 🤝 Contributors
 
-Benn1440(https://github.com/Benn1440)
-I-f-r-a-h(https://github.com/i-f-r-a-h)
-Ogbeidebest(https://github.com/ogbeidebest)
-Abdulwahabtechkn(https://github.com/abdulwahabtechkn)
+* Benn1440(https://github.com/Benn1440)
+* I-f-r-a-h(https://github.com/i-f-r-a-h)
+* Ogbeidebest(https://github.com/ogbeidebest)
+* Abdulwahabtechkn(https://github.com/abdulwahabtechkn)
 
