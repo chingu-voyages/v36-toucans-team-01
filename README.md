@@ -1,54 +1,37 @@
-# Project Name
+# Dry Clean NYC
 
-Short introduction or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-You can also add some badges/states next to Project Name, e.g,
-+ [Travis CI](https://travis-ci.org/)
-+ [AppVeyor](http://www.appveyor.com/)
-+ [Coveralls](https://coveralls.io/)
-+ [Gitter](https://gitter.im/)
-+ [Shields.io](http://shields.io/)
-+ Others
+[<img width="1432" alt="Screenshot 2022-01-29 at 12 17 37" src="https://user-images.githubusercontent.com/90143819/151660702-65fd4519-8c7c-4ceb-a0f2-f496ec6a81da.png">](https://www.drycleannyc.com/)
 
-## Features or Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+This project is a clone of [Dry Clean NYC](https://www.drycleannyc.com/). Our motivation behind this project was to improve our team working and development skills. 
 
-## Motivation
+## 🔨 Built With
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+This project is built using:
+* [Bootstrap](https://getbootstrap.com)
+* [JQuery](https://jquery.com)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+* [HTML](https://en.wikipedia.org/wiki/HTML#:~:text=The%20HyperText%20Markup%20Language%2C%20or,displayed%20in%20a%20web%20browser.&text=HTML%20provides%20a%20means%20to,links%2C%20quotes%20and%20other%20items.)
 
-## Requirements
+## 🚧 Features or Example
 
-This section is optional if there isn't any special dependencies. Else a bulletlist will suffice, e.g.,
-+ [Node.js](https://nodejs.org/)
-+ [React](https://facebook.github.io/react/)
-+ Others
+See the [open issues](https://github.com/chingu-voyages/v36-toucans-team-01/issues) for a list of proposed features (and known issues).
+
 
 ## Installation or Getting Started
 
-Provide code examples and explanations of how to get the project, e.g.,
+This run the website use one of the following methods:
+* Clone the project and compile it yourself
+* Use this live link - [Dry Clean NYC](https://www.drycleannyc.com/)
 
-	git clone https://github.com/Jasonnor/README.md.git
-    cd README.md
-    npm install README.md
-    npm start
 
-## Usage
+## 🤝 Contributors
 
-Show how to use the project or library.
-    
-## Reference
+Benn1440(https://github.com/Benn1440)
+I-f-r-a-h(https://github.com/i-f-r-a-h)
+Ogbeidebest(https://github.com/ogbeidebest)
+Abdulwahabtechkn(https://github.com/abdulwahabtechkn)
 
-+ [jxson](https://gist.github.com/jxson) - [README.md](https://gist.github.com/jxson/1784669)
-+ [gistfrojd](https://gist.github.com/gistfrojd) - [README.md](https://gist.github.com/gistfrojd/5fcd3b70949ac6376f66)
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license ([MIT](http://opensource.org/licenses/mit-license.php), [Apache](http://opensource.org/licenses/Apache-2.0), etc.)
