@@ -57,7 +57,11 @@ border: none;
 }
 
 
+.nav-large:hover{
+  
+  opacity: 0.7;
 
+}
 
 
 
@@ -392,6 +396,7 @@ font-size: 14px;
   }
 
   /* why nyc style end here */
+
   /* Retail Locations and Service Area starts here */
   .retail-location{
     background-color: #f3f3f5;
@@ -438,3 +443,96 @@ font-size: 14px;
     }
   }
   /* Retail Locations and Service Area Ends here */
+=======
+
+
+  /* price list section starts here */
+  .price-list{
+    background-color: #ff8a00;
+    padding: 70px 150px 150px 150px;
+  }
+  .price-tag{
+    padding-top: 50px;
+ 
+ 
+  }
+  .pric-tag h2{
+    padding: 100%;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .price-width{
+  width: 63%;
+  }
+  
+  .price-header input{
+    width: 300px;
+    padding: 12px ;
+    border: none;
+  }
+  .price-header .get-price{
+    width: 150px !important;
+    background-color:#30588b ;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+  }
+  .price-table-header{
+    background-color:#30588b ;
+    color: white;
+  }
+  .hidden{
+    display: none ;
+
+  }
+  .display-1{
+ display: none;
+  }
+  .price-font{
+    font-size: 30px;
+    color: rgba(29,29,29,.7);
+  }
+   @media (max-width: 768px) {
+.price-list{
+    background-color: #ff8a00;
+    padding: 70px 20px 150px 20px;
+  }
+   .price-width{
+  width: 90%;
+  }
+}
+  @media (max-width: 425px) {
+ .price-header input{
+
+    padding: 10px ;
+    border: none;
+  }
+    .price-header .get-price{
+    font-size: 14px;
+  }
+   .price-width{
+  width: 100%;
+  }
+  .price-list{
+    background-color: #ff8a00;
+    padding: 70px 20px 150px 20px;
+  }
+  }
+  @media (max-width: 320px) {
+ .price-header input{
+
+    padding: 8px ;
+    border: none;
+  }
+    .price-header .get-price{
+    font-size: 13px;
+  }
+   .price-width{
+  width: 100%;
+  }
+  .price-list{
+    background-color: #ff8a00;
+    padding: 70px 10px 150px 10px;
+  }
+  }
+
