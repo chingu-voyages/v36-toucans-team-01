@@ -1,3 +1,4 @@
+/* Typography */
 .font-1 {
   background-color: transparent;
   font-family: Rubik;
@@ -36,6 +37,12 @@
   font-weight: 700;
 }
 
+
+/* navigation */
+header {
+  max-width: 1360px;
+}
+
 .nav-small {
   /* font-family: Arial,Helvetica,sans-serif; */
   letter-spacing: 0em;
@@ -63,6 +70,7 @@
   opacity: 0.7;
 }
 
+/* footer */
 .main-footer-container {
   background: #272835;
   padding: 20px 0px;
@@ -105,19 +113,23 @@
   }
 }
 
-/* hero-page section */
 
+
+/* hero-page section */
 .heropage-img {
   background-image: url(../images/hero.png);
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50% 0;
   height: 100vh;
+  max-height: 750px;
   display: block;
+  overflow: hidden;
 }
 
 .heropage-text {
   padding-top: 8rem;
+  max-width: 1360px;
 }
 
 .heropage-h2 {
@@ -152,61 +164,6 @@
 @media (max-width: 375px) {
   .heropage-text {
     padding-top: 5rem;
-  }
-
-  /* .heropage-h2{
-        word-wrap: none;
-      } */
-}
-
-/* hero-page section ends */
-
-/* hero-page section */
-
-.heropage-img {
-  background-image: url(../images/hero.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 0;
-  height: 100vh;
-  display: block;
-}
-
-.heropage-text {
-  padding-top: 10rem;
-}
-
-.nyc-icon-color {
-  color: #13478abe;
-}
-
-.heropage-button {
-  background-color: #30588b !important;
-}
-
-@media (max-width: 320px) {
-  .heropage-text {
-    padding-top: 5rem;
-  }
-}
-
-@media (max-width: 425px) {
-
-  /* .heropage-text{
-         padding-top: 5rem;
-      } */
-  .heropage-h2 {
-    font-size: 18px;
-  }
-
-  .heropage-p {
-    font-size: 13px;
-  }
-}
-
-@media (max-width: 375px) {
-  .heropage-text {
-    padding-top: 7rem;
   }
 
   /* .heropage-h2{
@@ -294,7 +251,6 @@
 }
 
 /* * 100% Satisfaction Guaranteed Ends */
-
 
 /* How Dry Clean NYC works start */
 .nyc-base-header {
@@ -556,163 +512,167 @@ ol li:before {
 
   .last-retail-service {
     margin-bottom: 30px;
-
-    @media (max-width:768px) {
-      .location-map {
-        width: 22rem;
-      }
-
-      .service-area {
-        font-size: 15px;
-      }
-
-      .last-service-area {
-        width: 8rem;
-      }
-    }
-
-    @media (max-width:425px) {
-      .retail-text {
-        font-size: 18px !important;
-      }
-
-      .service-area {
-        font-size: 13px;
-      }
-
-      .last-retail-service {
-        margin-bottom: 30px;
-      }
-    }
-
-    @media (max-width:320px) {
-      .location-map {
-        width: 275px;
-      }
-    }
   }
-    /* Retail Locations and Service Area Ends here */
 
-
-
-    /* price list section starts here */
-    .price-list {
-      background-color: #ff8a00;
-      padding: 70px 150px 150px 150px;
+  @media (max-width:768px) {
+    .location-map {
+      width: 22rem;
     }
 
-    .price-tag {
-      padding-top: 50px;
+    .service-area {
+      font-size: 15px;
+    }
+
+    .last-service-area {
+      width: 8rem;
     }
   }
 
-  @media (max-width: 320px) {
+  @media (max-width:425px) {
+    .retail-text {
+      font-size: 18px !important;
+    }
+
+    .service-area {
+      font-size: 13px;
+    }
+
+    .last-retail-service {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width:320px) {
     .location-map {
       width: 275px;
     }
   }
+}
 
-  /* Retail Locations and Service Area Ends here */
+/* Retail Locations and Service Area Ends here */
 
-  /* price list section starts here */
+
+
+/* price list section starts here */
+.price-list {
+  background-color: #ff8a00;
+  padding: 70px 150px 150px 150px;
+}
+
+.price-tag {
+  padding-top: 50px;
+
+
+}
+}
+
+@media (max-width: 320px) {
+  .location-map {
+    width: 275px;
+  }
+}
+
+/* Retail Locations and Service Area Ends here */
+
+/* price list section starts here */
+.price-list {
+  background-color: #ff8a00;
+  padding: 70px 150px 150px 150px;
+}
+
+.price-tag {
+  padding-top: 50px;
+}
+
+.pric-tag h2 {
+  padding: 100%;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.price-width {
+  width: 63%;
+}
+
+.price-header input {
+  width: 300px;
+  padding: 12px;
+  border: none;
+}
+
+.price-header .get-price {
+  width: 150px !important;
+  background-color: #30588b;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.price-table-header {
+  background-color: #30588b;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.display-1 {
+  display: none;
+}
+
+.price-font {
+  font-size: 30px;
+  color: rgba(29, 29, 29, 0.7);
+}
+
+@media (max-width: 768px) {
   .price-list {
     background-color: #ff8a00;
-    padding: 70px 150px 150px 150px;
-  }
-
-  .price-tag {
-    padding-top: 50px;
-  }
-
-  .pric-tag h2 {
-    padding: 100%;
-    font-size: 25px;
-    font-weight: 700;
+    padding: 70px 20px 150px 20px;
   }
 
   .price-width {
-    width: 63%;
+    width: 90%;
   }
+}
 
+@media (max-width: 425px) {
   .price-header input {
-    width: 300px;
-    padding: 12px;
+    padding: 10px;
     border: none;
   }
 
   .price-header .get-price {
-    width: 150px !important;
-    background-color: #30588b;
-    color: white;
-    font-weight: 700;
-    font-size: 25px;
+    font-size: 14px;
   }
 
-  .price-table-header {
-    background-color: #30588b;
-    color: white;
+  .price-width {
+    width: 100%;
   }
 
-  .hidden {
-    display: none;
+  .price-list {
+    background-color: #ff8a00;
+    padding: 70px 20px 150px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .price-header input {
+    padding: 8px;
+    border: none;
   }
 
-  .display-1 {
-    display: none;
+  .price-header .get-price {
+    font-size: 13px;
   }
 
-  .price-font {
-    font-size: 30px;
-    color: rgba(29, 29, 29, 0.7);
+  .price-width {
+    width: 100%;
   }
 
-  @media (max-width: 768px) {
-    .price-list {
-      background-color: #ff8a00;
-      padding: 70px 20px 150px 20px;
-    }
-
-    .price-width {
-      width: 90%;
-    }
+  .price-list {
+    background-color: #ff8a00;
+    padding: 70px 10px 150px 10px;
   }
-
-  @media (max-width: 425px) {
-    .price-header input {
-      padding: 10px;
-      border: none;
-    }
-
-    .price-header .get-price {
-      font-size: 14px;
-    }
-
-    .price-width {
-      width: 100%;
-    }
-
-    .price-list {
-      background-color: #ff8a00;
-      padding: 70px 20px 150px 20px;
-    }
-  }
-
-  @media (max-width: 320px) {
-    .price-header input {
-      padding: 8px;
-      border: none;
-    }
-
-    .price-header .get-price {
-      font-size: 13px;
-    }
-
-    .price-width {
-      width: 100%;
-    }
-
-    .price-list {
-      background-color: #ff8a00;
-      padding: 70px 10px 150px 10px;
-    }
-  }
+}
