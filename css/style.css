@@ -9,12 +9,14 @@
   vertical-align: middle;
   /* display: inline-block; */
 }
+
 .font-2 {
   font-size: 14px;
   line-height: 1rem;
   font-family: Roboto Slab;
   font-weight: 400;
 }
+
 .font-3 {
   font-family: Rubik;
   font-weight: 700;
@@ -24,13 +26,16 @@
 
   vertical-align: middle;
 }
+
 .font-4 {
   font-size: 20px;
   color: #3f3e3e;
 }
+
 .font-5 {
   font-weight: 700;
 }
+
 .nav-small {
   /* font-family: Arial,Helvetica,sans-serif; */
   letter-spacing: 0em;
@@ -44,6 +49,7 @@
   text-transform: none;
   color: #000;
 }
+
 .nav-button {
   background: #30588b;
   color: #fff !important;
@@ -88,9 +94,11 @@
   .main-footer-container {
     height: 600px;
   }
+
   .footer-container {
     display: block;
   }
+
   .footer-item {
     display: block;
     padding: 5px 0;
@@ -107,36 +115,45 @@
   height: 100vh;
   display: block;
 }
+
 .heropage-text {
   padding-top: 8rem;
 }
+
 .heropage-h2 {
   font-size: 2.5rem;
   color: #363636;
 }
+
 .heropage-p {
   font-size: 1.4rem;
 }
+
 @media (max-width: 320px) {
   .heropage-text {
     padding-top: 5rem;
   }
 }
+
 @media (max-width: 425px) {
+
   /* .heropage-text{
          padding-top: 5rem;
       } */
   .heropage-h2 {
     font-size: 18px;
   }
+
   .heropage-p {
     font-size: 13px;
   }
 }
+
 @media (max-width: 375px) {
   .heropage-text {
     padding-top: 5rem;
   }
+
   /* .heropage-h2{
         word-wrap: none;
       } */
@@ -154,35 +171,44 @@
   height: 100vh;
   display: block;
 }
+
 .heropage-text {
   padding-top: 10rem;
 }
+
 .nyc-icon-color {
   color: #13478abe;
 }
+
 .heropage-button {
   background-color: #30588b !important;
 }
+
 @media (max-width: 320px) {
   .heropage-text {
     padding-top: 5rem;
   }
 }
+
 @media (max-width: 425px) {
+
   /* .heropage-text{
          padding-top: 5rem;
       } */
   .heropage-h2 {
     font-size: 18px;
   }
+
   .heropage-p {
     font-size: 13px;
   }
 }
+
 @media (max-width: 375px) {
   .heropage-text {
     padding-top: 7rem;
   }
+
   /* .heropage-h2{
         word-wrap: none;
       } */
@@ -194,16 +220,19 @@
 .satisfaction-guarateed {
   margin-top: 7rem;
 }
+
 .satisfaction-pTag {
   font-weight: 600;
   font-size: 50px;
   color: #30588b;
 }
+
 .star-icons {
   color: #30588b;
   font-size: 60px;
   margin: 40px;
 }
+
 .satisfaction-text {
   width: 50%;
   margin-left: 17rem;
@@ -216,10 +245,12 @@
     font-weight: 600;
     font-size: 30px;
   }
+
   .star-icons {
     font-size: 40px;
     margin: 20px;
   }
+
   .satisfaction-text {
     width: 70%;
     margin-left: 6rem;
@@ -227,15 +258,18 @@
     margin-bottom: 8rem;
   }
 }
+
 @media (max-width: 425px) {
   .satisfaction-pTag {
     font-weight: 600;
     font-size: 18px;
   }
+
   .star-icons {
     font-size: 20px;
     margin: 5px;
   }
+
   .satisfaction-text {
     width: 70%;
     margin-left: 3rem;
@@ -244,37 +278,45 @@
     font-size: 15px;
   }
 }
+
 @media (max-width: 375px) {
   .satisfaction-pTag {
     font-weight: 600;
     font-size: 15px;
   }
 }
+
 @media (max-width: 320px) {
   .satisfaction-pTag {
     font-weight: 600;
     font-size: 20px;
   }
 }
+
 /* * 100% Satisfaction Guaranteed Ends */
-*/
+
 
 /* How Dry Clean NYC works start */
 .nyc-base-header {
   margin-top: 20rem;
 }
+
 .nyc-img {
   overflow-x: hidden;
 }
+
 .nyc-arrow {
   background-color: #30588b !important;
 }
+
 .nyc-display-img {
   width: 21rem;
 }
+
 .nyc-button {
   -webkit-padding-start: 0px;
 }
+
 .nyc-arrow .nyc-icon2 {
   font-size: 2.3em;
   vertical-align: middle;
@@ -284,21 +326,26 @@
 .nyc-base-footer {
   margin-bottom: 10rem;
 }
+
 @media (max-width: 768px) {
   .nyc-display-img {
     width: 10rem;
   }
+
   .nyc-header {
     font-size: 1.5rem;
     margin-top: 3rem;
   }
+
   .nyc-pTag {
     font-size: 1rem !important;
   }
+
   .nyc-icon {
     position: relative;
     top: 10rem;
   }
+
   .nyc-first {
     overflow-y: hidden;
   }
@@ -311,25 +358,30 @@
     margin-left: auto;
     margin-right: auto;
   }
+
   .nyc-header {
     font-size: 1.2rem;
     margin-top: 3rem;
     text-align: center;
   }
+
   .nyc-pTag {
     font-size: 0.8rem !important;
     text-align: center;
     word-break: keep-all;
   }
+
   .nyc-icon {
     display: none;
   }
+
   .nyc-arrow {
     margin-top: 2rem;
     width: 20rem !important;
     height: 5rem !important;
   }
 }
+
 @media (max-width: 320px) {
   .nyc-arrow {
     margin-top: 2rem;
@@ -372,9 +424,11 @@
   border-radius: 12px;
   transition: 0.3s;
 }
+
 .review-card:hover {
   opacity: 0.7;
 }
+
 .card-text {
   word-break: break-all;
 }
@@ -385,10 +439,12 @@
   margin-left: 30px;
   margin-bottom: -30px;
 }
+
 .review-date {
   font-size: 14px;
   margin-left: 10px;
 }
+
 /* stars */
 .fa-star {
   color: rgb(255, 162, 1);
@@ -396,18 +452,22 @@
   margin-right: 5px;
   margin-top: 10px;
 }
+
 .hide {
   display: block;
 }
+
 @media (max-width: 768px) {
   .hide {
     display: none;
     height: 0px;
   }
+
   .review-card {
     min-height: 340px;
   }
 }
+
 /* reviews section ends */
 
 /* why nyc section starts here */
@@ -418,6 +478,7 @@
   background-image: url(../images/background.png);
   background-color: #a9adb6;
 }
+
 .why-nyc-image-div {
   margin-top: 6rem;
 }
@@ -425,6 +486,7 @@
 ol li {
   list-style-type: none;
 }
+
 ol li:before {
   background-position: center;
   background-size: cover;
@@ -433,10 +495,12 @@ ol li:before {
 
   text-align: center;
 }
+
 @media (max-width: 425px) {
   .font-3 {
     font-size: 14px;
   }
+
   .font-4 {
     font-size: 12px;
     color: #3f3e3e;
@@ -449,15 +513,19 @@ ol li:before {
 .retail-location {
   background-color: #f3f3f5;
 }
+
 .retail-header {
   margin: 5rem 0 2rem 0;
 }
+
 .service-area {
   letter-spacing: 1.5px;
 }
+
 .retail-location-map {
   margin-bottom: 7rem;
 }
+
 .retail-loc {
   display: none;
 }
@@ -466,156 +534,185 @@ ol li:before {
   .location-map {
     width: 22rem;
   }
+
   .service-area {
     font-size: 15px;
   }
+
   .last-service-area {
     width: 8rem;
   }
 }
+
 @media (max-width: 425px) {
   .retail-text {
     font-size: 18px !important;
   }
+
   .service-area {
     font-size: 13px;
   }
 
-Benedict
+
   .last-retail-service {
     margin-bottom: 30px;
-    
-  @media (max-width:768px) {
-    .location-map {
-      width: 22rem;
-    }
-    .service-area{
-      font-size: 15px;
-    }
-    .last-service-area{
-      width: 8rem;
-    }
-  }
-  @media (max-width:425px) {
-    .retail-text {
-      font-size: 18px !important;
-    }
-    .service-area{
-      font-size: 13px;
-    }  
 
-    .last-retail-service{
-      margin-bottom: 30px;
+    @media (max-width:768px) {
+      .location-map {
+        width: 22rem;
+      }
+
+      .service-area {
+        font-size: 15px;
+      }
+
+      .last-service-area {
+        width: 8rem;
+      }
+    }
+
+    @media (max-width:425px) {
+      .retail-text {
+        font-size: 18px !important;
+      }
+
+      .service-area {
+        font-size: 13px;
+      }
+
+      .last-retail-service {
+        margin-bottom: 30px;
+      }
+    }
+
+    @media (max-width:320px) {
+      .location-map {
+        width: 275px;
+      }
     }
   }
-  @media (max-width:320px) {
-    .location-map{
+    /* Retail Locations and Service Area Ends here */
+
+
+
+    /* price list section starts here */
+    .price-list {
+      background-color: #ff8a00;
+      padding: 70px 150px 150px 150px;
+    }
+
+    .price-tag {
+      padding-top: 50px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .location-map {
       width: 275px;
     }
   }
+
   /* Retail Locations and Service Area Ends here */
 
-
-
   /* price list section starts here */
-  .price-list{
+  .price-list {
     background-color: #ff8a00;
     padding: 70px 150px 150px 150px;
   }
-  .price-tag{
+
+  .price-tag {
     padding-top: 50px;
- 
- development
   }
-}
-@media (max-width: 320px) {
-  .location-map {
-    width: 275px;
-  }
-}
-/* Retail Locations and Service Area Ends here */
 
-/* price list section starts here */
-.price-list {
-  background-color: #ff8a00;
-  padding: 70px 150px 150px 150px;
-}
-.price-tag {
-  padding-top: 50px;
-}
-.pric-tag h2 {
-  padding: 100%;
-  font-size: 25px;
-  font-weight: 700;
-}
-.price-width {
-  width: 63%;
-}
-
-.price-header input {
-  width: 300px;
-  padding: 12px;
-  border: none;
-}
-.price-header .get-price {
-  width: 150px !important;
-  background-color: #30588b;
-  color: white;
-  font-weight: 700;
-  font-size: 25px;
-}
-.price-table-header {
-  background-color: #30588b;
-  color: white;
-}
-.hidden {
-  display: none;
-}
-.display-1 {
-  display: none;
-}
-.price-font {
-  font-size: 30px;
-  color: rgba(29, 29, 29, 0.7);
-}
-@media (max-width: 768px) {
-  .price-list {
-    background-color: #ff8a00;
-    padding: 70px 20px 150px 20px;
+  .pric-tag h2 {
+    padding: 100%;
+    font-size: 25px;
+    font-weight: 700;
   }
+
   .price-width {
-    width: 90%;
+    width: 63%;
   }
-}
-@media (max-width: 425px) {
+
   .price-header input {
-    padding: 10px;
+    width: 300px;
+    padding: 12px;
     border: none;
   }
+
   .price-header .get-price {
-    font-size: 14px;
+    width: 150px !important;
+    background-color: #30588b;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
   }
-  .price-width {
-    width: 100%;
+
+  .price-table-header {
+    background-color: #30588b;
+    color: white;
   }
-  .price-list {
-    background-color: #ff8a00;
-    padding: 70px 20px 150px 20px;
+
+  .hidden {
+    display: none;
   }
-}
-@media (max-width: 320px) {
-  .price-header input {
-    padding: 8px;
-    border: none;
+
+  .display-1 {
+    display: none;
   }
-  .price-header .get-price {
-    font-size: 13px;
+
+  .price-font {
+    font-size: 30px;
+    color: rgba(29, 29, 29, 0.7);
   }
-  .price-width {
-    width: 100%;
+
+  @media (max-width: 768px) {
+    .price-list {
+      background-color: #ff8a00;
+      padding: 70px 20px 150px 20px;
+    }
+
+    .price-width {
+      width: 90%;
+    }
   }
-  .price-list {
-    background-color: #ff8a00;
-    padding: 70px 10px 150px 10px;
+
+  @media (max-width: 425px) {
+    .price-header input {
+      padding: 10px;
+      border: none;
+    }
+
+    .price-header .get-price {
+      font-size: 14px;
+    }
+
+    .price-width {
+      width: 100%;
+    }
+
+    .price-list {
+      background-color: #ff8a00;
+      padding: 70px 20px 150px 20px;
+    }
   }
-}
+
+  @media (max-width: 320px) {
+    .price-header input {
+      padding: 8px;
+      border: none;
+    }
+
+    .price-header .get-price {
+      font-size: 13px;
+    }
+
+    .price-width {
+      width: 100%;
+    }
+
+    .price-list {
+      background-color: #ff8a00;
+      padding: 70px 10px 150px 10px;
+    }
+  }
