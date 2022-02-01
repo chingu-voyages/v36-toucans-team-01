@@ -481,8 +481,51 @@ ol li:before {
     font-size: 13px;
   }
 
+Benedict
   .last-retail-service {
     margin-bottom: 30px;
+    
+  @media (max-width:768px) {
+    .location-map {
+      width: 22rem;
+    }
+    .service-area{
+      font-size: 15px;
+    }
+    .last-service-area{
+      width: 8rem;
+    }
+  }
+  @media (max-width:425px) {
+    .retail-text {
+      font-size: 18px !important;
+    }
+    .service-area{
+      font-size: 13px;
+    }  
+
+    .last-retail-service{
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width:320px) {
+    .location-map{
+      width: 275px;
+    }
+  }
+  /* Retail Locations and Service Area Ends here */
+
+
+
+  /* price list section starts here */
+  .price-list{
+    background-color: #ff8a00;
+    padding: 70px 150px 150px 150px;
+  }
+  .price-tag{
+    padding-top: 50px;
+ 
+ development
   }
 }
 @media (max-width: 320px) {
