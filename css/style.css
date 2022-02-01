@@ -141,6 +141,14 @@ header {
   font-size: 1.4rem;
 }
 
+.nyc-icon-color {
+  color: #13478abe;
+}
+
+.heropage-button {
+  background-color: #30588b !important;
+}
+
 @media (max-width: 320px) {
   .heropage-text {
     padding-top: 5rem;
@@ -253,8 +261,12 @@ header {
 /* * 100% Satisfaction Guaranteed Ends */
 
 /* How Dry Clean NYC works start */
+.how-nyc-works {
+  max-width: 1360px;
+}
+
 .nyc-base-header {
-  margin-top: 20rem;
+  margin-top: 15rem;
 }
 
 .nyc-img {
@@ -350,7 +362,7 @@ header {
 
 /* start of reviews section */
 .reviews {
-  padding: 200px 5%;
+  padding: 100px 8% 200px 8%;
   background-color: #f1f1f3;
 }
 
@@ -433,10 +445,11 @@ header {
   background-size: cover;
   background-image: url(../images/background.png);
   background-color: #a9adb6;
+  padding: 100px 0px;
 }
 
-.why-nyc-image-div {
-  margin-top: 6rem;
+.container-fluid {
+  max-width: 1360px;
 }
 
 ol li {
@@ -465,93 +478,6 @@ ol li:before {
 
 /* why nyc style end here */
 
-/* Retail Locations and Service Area starts here */
-.retail-location {
-  background-color: #f3f3f5;
-}
-
-.retail-header {
-  margin: 5rem 0 2rem 0;
-}
-
-.service-area {
-  letter-spacing: 1.5px;
-}
-
-.retail-location-map {
-  margin-bottom: 7rem;
-}
-
-.retail-loc {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .location-map {
-    width: 22rem;
-  }
-
-  .service-area {
-    font-size: 15px;
-  }
-
-  .last-service-area {
-    width: 8rem;
-  }
-}
-
-@media (max-width: 425px) {
-  .retail-text {
-    font-size: 18px !important;
-  }
-
-  .service-area {
-    font-size: 13px;
-  }
-
-
-  .last-retail-service {
-    margin-bottom: 30px;
-  }
-
-  @media (max-width:768px) {
-    .location-map {
-      width: 22rem;
-    }
-
-    .service-area {
-      font-size: 15px;
-    }
-
-    .last-service-area {
-      width: 8rem;
-    }
-  }
-
-  @media (max-width:425px) {
-    .retail-text {
-      font-size: 18px !important;
-    }
-
-    .service-area {
-      font-size: 13px;
-    }
-
-    .last-retail-service {
-      margin-bottom: 30px;
-    }
-  }
-
-  @media (max-width:320px) {
-    .location-map {
-      width: 275px;
-    }
-  }
-}
-
-/* Retail Locations and Service Area Ends here */
-
-
 
 /* price list section starts here */
 .price-list {
@@ -560,34 +486,13 @@ ol li:before {
 }
 
 .price-tag {
-  padding-top: 50px;
-
-
-}
+  padding: 50px 0px 30px 0px;
 }
 
-@media (max-width: 320px) {
-  .location-map {
-    width: 275px;
-  }
-}
-
-/* Retail Locations and Service Area Ends here */
-
-/* price list section starts here */
-.price-list {
-  background-color: #ff8a00;
-  padding: 70px 150px 150px 150px;
-}
-
-.price-tag {
-  padding-top: 50px;
-}
-
-.pric-tag h2 {
-  padding: 100%;
-  font-size: 25px;
+.price-tag h2 {
+  font-size: 33px;
   font-weight: 700;
+  margin-bottom: 60px;
 }
 
 .price-width {
@@ -676,3 +581,96 @@ ol li:before {
     padding: 70px 10px 150px 10px;
   }
 }
+
+/* price list section ends here */
+
+
+/* Retail Locations and Service Area starts here */
+.max {
+  max-width: 1360px;
+}
+
+.retail-location {
+  background-color: #f3f3f5;
+}
+
+.retail-header {
+  margin: 5rem 0 2rem 0;
+}
+
+.service-area {
+  letter-spacing: 1.5px;
+}
+
+.retail-location-map {
+  margin-bottom: 7rem;
+}
+
+.retail-loc {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .location-map {
+    width: 22rem;
+  }
+
+  .service-area {
+    font-size: 15px;
+  }
+
+  .last-service-area {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .retail-text {
+    font-size: 18px !important;
+  }
+
+  .service-area {
+    font-size: 13px;
+  }
+
+
+  .last-retail-service {
+    margin-bottom: 30px;
+  }
+
+  @media (max-width:768px) {
+    .location-map {
+      width: 22rem;
+    }
+
+    .service-area {
+      font-size: 15px;
+    }
+
+    .last-service-area {
+      width: 8rem;
+    }
+  }
+
+  @media (max-width:425px) {
+    .retail-text {
+      font-size: 18px !important;
+    }
+
+    .service-area {
+      font-size: 13px;
+    }
+
+    .last-retail-service {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width:320px) {
+    .location-map {
+      width: 275px;
+    }
+  }
+}
+
+/* Retail Locations and Service Area Ends here */
