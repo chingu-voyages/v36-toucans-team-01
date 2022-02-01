@@ -1,419 +1,490 @@
-.font-1{
-    background-color: transparent;
-    font-family: Rubik;
-font-weight: 400;
-font-style: normal;
-font-size: 12px;
-letter-spacing: .2em;
-text-transform: uppercase;
-    vertical-align: middle;
-      /* display: inline-block; */
-
+.font-1 {
+  background-color: transparent;
+  font-family: Rubik;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  /* display: inline-block; */
 }
-.font-2{
-    font-size: 14px;
-    line-height: 1rem;
-    font-family: Roboto Slab;
-    font-weight: 400;
+.font-2 {
+  font-size: 14px;
+  line-height: 1rem;
+  font-family: Roboto Slab;
+  font-weight: 400;
 }
-.font-3{
-      
-    font-family: Rubik;
-font-weight: 700;
-font-style: normal;
-font-size: 1.8rem;
-letter-spacing: .2em;
+.font-3 {
+  font-family: Rubik;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  letter-spacing: 0.2em;
 
-    vertical-align: middle;
-
+  vertical-align: middle;
 }
-.font-4{
+.font-4 {
   font-size: 20px;
   color: #3f3e3e;
 }
-.font-5{
+.font-5 {
   font-weight: 700;
 }
-.nav-small{
-/* font-family: Arial,Helvetica,sans-serif; */
-letter-spacing: .0em;
-line-height: 1em;
-font-family: Rubik;
-font-weight: 400;
-font-style: normal;
-font-size: 20px;
-letter-spacing: .2em;
-line-height: 1.6em;
-text-transform: none;
-color: #000;
+.nav-small {
+  /* font-family: Arial,Helvetica,sans-serif; */
+  letter-spacing: 0em;
+  line-height: 1em;
+  font-family: Rubik;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 0.2em;
+  line-height: 1.6em;
+  text-transform: none;
+  color: #000;
 }
-.nav-button{
-background: #30588b;
-color: #fff !important;
-padding: 7px;
-border-radius: 2px;
-width: 90px;
-border: none;  
+.nav-button {
+  background: #30588b;
+  color: #fff !important;
+  padding: 7px;
+  border-radius: 2px;
+  width: 90px;
+  border: none;
 }
 
-
-.nav-large:hover{
-  
+.nav-large:hover {
   opacity: 0.7;
-
 }
 
-
-
-.main-footer-container{
-background: #272835;
-padding: 20px 0px;
-height: 400px;
-/* padding-top: 10% */
-
+.main-footer-container {
+  background: #272835;
+  padding: 20px 0px;
+  height: 400px;
+  /* padding-top: 10% */
 }
 
-.footer-container{
-display: flex;
-justify-content: center;
-align-items: space-between;
-gap: 2;
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  gap: 2;
 }
 
-
-
-.footer-item img{
-width: 3rem;
-margin-bottom: 10px;
+.footer-item img {
+  width: 3rem;
+  margin-bottom: 10px;
 }
 
-.copy-right{
-background: #000;
-height: 40px;
-padding-top: 10px;    
+.copy-right {
+  background: #000;
+  height: 40px;
+  padding-top: 10px;
 }
-
-
 
 /*media query*/
 
-@media(max-width: 760px){
-    .main-footer-container{
-        height: 600px;
-    }
-    .footer-container{
-        display: block;
-    }
-    .footer-item{
-        display: block;
-        padding: 5px 0;
-    }
-
-} 
-
-/* hero-page section */
-
-.heropage-img {
-    background-image: url(../images/hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    height: 100vh;
+@media (max-width: 760px) {
+  .main-footer-container {
+    height: 600px;
+  }
+  .footer-container {
     display: block;
   }
-  .heropage-text {
-    padding-top: 8rem;
-  }
-  .heropage-h2{
-    font-size: 2.5rem;
-    color: #363636;
-  }
-    .heropage-p{
-          font-size: 1.4rem;
-       }
-  @media (max-width: 320px) {
-    .heropage-text {
-      padding-top: 5rem;
-    }
-  }
-  @media (max-width: 425px) {
-    /* .heropage-text{
-         padding-top: 5rem;
-      } */
-    .heropage-h2{
-        font-size: 18px;
-      }
-      .heropage-p{
-          font-size: 13px;
-       }
-  }
-  @media (max-width: 375px) {
-    .heropage-text {
-      padding-top: 5rem;
-    }
-    /* .heropage-h2{
-        word-wrap: none;
-      } */
-  }
-
-/* hero-page section ends */
-
-/* hero-page section */
-
-.heropage-img {
-    background-image: url(../images/hero.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 0;
-    height: 100vh;
+  .footer-item {
     display: block;
+    padding: 5px 0;
   }
-  .heropage-text {
-    padding-top: 10rem;
-  }
-  .nyc-icon-color{
-    color: #13478abe;
-  }
-  .heropage-button{
-    background-color: #30588b!important;
-  }
-  @media (max-width: 320px) {
-    .heropage-text {
-      padding-top: 5rem;
-    }
-  }
-  @media (max-width: 425px) {
-    /* .heropage-text{
-         padding-top: 5rem;
-      } */
-    .heropage-h2{
-        font-size: 18px;
-      }
-      .heropage-p{
-          font-size: 13px;
-       }
-  }
-  @media (max-width: 375px) {
-    .heropage-text {
-      padding-top: 7rem;
-    }
-    /* .heropage-h2{
-        word-wrap: none;
-      } */
-  }
-
-/* hero-page section ends */
-/* How Dry Clean NYC works start */
-.nyc-base-header{
-  margin-top: 10rem;
 }
-.nyc-img{
+
+/* hero-page section */
+
+.heropage-img {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 100vh;
+  display: block;
+}
+.heropage-text {
+  padding-top: 8rem;
+}
+.heropage-h2 {
+  font-size: 2.5rem;
+  color: #363636;
+}
+.heropage-p {
+  font-size: 1.4rem;
+}
+@media (max-width: 320px) {
+  .heropage-text {
+    padding-top: 5rem;
+  }
+}
+@media (max-width: 425px) {
+  /* .heropage-text{
+         padding-top: 5rem;
+      } */
+  .heropage-h2 {
+    font-size: 18px;
+  }
+  .heropage-p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 375px) {
+  .heropage-text {
+    padding-top: 5rem;
+  }
+  /* .heropage-h2{
+        word-wrap: none;
+      } */
+}
+
+/* hero-page section ends */
+
+/* hero-page section */
+
+.heropage-img {
+  background-image: url(../images/hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 100vh;
+  display: block;
+}
+.heropage-text {
+  padding-top: 10rem;
+}
+.nyc-icon-color {
+  color: #13478abe;
+}
+.heropage-button {
+  background-color: #30588b !important;
+}
+@media (max-width: 320px) {
+  .heropage-text {
+    padding-top: 5rem;
+  }
+}
+@media (max-width: 425px) {
+  /* .heropage-text{
+         padding-top: 5rem;
+      } */
+  .heropage-h2 {
+    font-size: 18px;
+  }
+  .heropage-p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 375px) {
+  .heropage-text {
+    padding-top: 7rem;
+  }
+  /* .heropage-h2{
+        word-wrap: none;
+      } */
+}
+
+/* hero-page section ends */
+
+/* 100% Satisfaction Guaranteed starts */
+.satisfaction-guarateed {
+  margin-top: 7rem;
+}
+.satisfaction-pTag {
+  font-weight: 600;
+  font-size: 50px;
+  color: #30588b;
+}
+.star-icons {
+  color: #30588b;
+  font-size: 60px;
+  margin: 40px;
+}
+.satisfaction-text {
+  width: 50%;
+  margin-left: 17rem;
+  line-height: 2.5rem;
+  margin-bottom: 8rem;
+}
+
+@media (max-width: 768px) {
+  .satisfaction-pTag {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .star-icons {
+    font-size: 40px;
+    margin: 20px;
+  }
+  .satisfaction-text {
+    width: 70%;
+    margin-left: 6rem;
+    line-height: 2.5rem;
+    margin-bottom: 8rem;
+  }
+}
+@media (max-width: 425px) {
+  .satisfaction-pTag {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .star-icons {
+    font-size: 20px;
+    margin: 5px;
+  }
+  .satisfaction-text {
+    width: 70%;
+    margin-left: 3rem;
+    line-height: 2rem;
+    margin-bottom: 8rem;
+    font-size: 15px;
+  }
+}
+@media (max-width: 375px) {
+  .satisfaction-pTag {
+    font-weight: 600;
+    font-size: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .satisfaction-pTag {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+/* * 100% Satisfaction Guaranteed Ends */
+*/
+
+/* How Dry Clean NYC works start */
+.nyc-base-header {
+  margin-top: 20rem;
+}
+.nyc-img {
   overflow-x: hidden;
 }
 .nyc-arrow {
-  background-color:#30588b !important;
+  background-color: #30588b !important;
 }
-.nyc-display-img{
-  width:21rem;
+.nyc-display-img {
+  width: 21rem;
 }
-.nyc-button{
+.nyc-button {
   -webkit-padding-start: 0px;
-  } 
-  .nyc-arrow .nyc-icon2 {
+}
+.nyc-arrow .nyc-icon2 {
   font-size: 2.3em;
   vertical-align: middle;
   padding-top: 9px;
-  }
+}
 
-  .nyc-base-footer{
-    margin-bottom: 10rem;
+.nyc-base-footer {
+  margin-bottom: 10rem;
+}
+@media (max-width: 768px) {
+  .nyc-display-img {
+    width: 10rem;
   }
-@media (max-width:768px) {
-.nyc-display-img{
-  width:10rem;
-}
-.nyc-header{
-  font-size: 1.5rem;
-  margin-top:3rem ;
-}
-.nyc-pTag{
-  font-size: 1rem!important;
-}
-.nyc-icon{
+  .nyc-header {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+  }
+  .nyc-pTag {
+    font-size: 1rem !important;
+  }
+  .nyc-icon {
     position: relative;
-    top:10rem;
-}
-.nyc-first{
-  overflow-y: hidden;
+    top: 10rem;
+  }
+  .nyc-first {
+    overflow-y: hidden;
+  }
 }
 
-}
-
-@media (max-width:425px) {
-  .nyc-display-img{
-    width:13rem;
+@media (max-width: 425px) {
+  .nyc-display-img {
+    width: 13rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
   }
-  .nyc-header{
+  .nyc-header {
     font-size: 1.2rem;
-    margin-top:3rem ;
+    margin-top: 3rem;
     text-align: center;
   }
-  .nyc-pTag{
-    font-size: 0.8rem!important;
+  .nyc-pTag {
+    font-size: 0.8rem !important;
     text-align: center;
     word-break: keep-all;
   }
-  .nyc-icon{
-      display: none;
+  .nyc-icon {
+    display: none;
   }
   .nyc-arrow {
     margin-top: 2rem;
-    width:20rem !important;
-    height: 5rem !important; 
+    width: 20rem !important;
+    height: 5rem !important;
   }
+}
+@media (max-width: 320px) {
+  .nyc-arrow {
+    margin-top: 2rem;
+    width: 16rem !important;
+    height: 5rem !important;
   }
-  @media (max-width:320px) {
-    .nyc-arrow {
-      margin-top: 2rem;
-      width:16rem !important;
-      height: 5rem !important; 
-    }
-  }
+}
 
 /* How Dry Clean NYC works  ends */
 
-
 /* start of reviews section */
-.reviews{
-    padding: 200px 5%;
-    background-color: #f1f1f3;
+.reviews {
+  padding: 200px 5%;
+  background-color: #f1f1f3;
 }
 
 /* indicators */
-.carousel-indicators{
-   margin-bottom: -100px;
-   gap: 10px;
+.carousel-indicators {
+  margin-bottom: -100px;
+  gap: 10px;
 }
 
 .carousel-indicators [data-bs-target] {
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    border: 1px solid grey;
-    background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid grey;
+  background-color: white;
 }
 
-.carousel-indicators .active{
-    opacity: 1;
-    border:2px solid #0081FF;
-    background-color: #0081FF !important;
+.carousel-indicators .active {
+  opacity: 1;
+  border: 2px solid #0081ff;
+  background-color: #0081ff !important;
 }
 
 /* card */
-.review-card{
-    min-height: 380px;
-    border-radius: 12px;
-    transition:.3s;
+.review-card {
+  min-height: 380px;
+  border-radius: 12px;
+  transition: 0.3s;
 }
-.review-card:hover{
+.review-card:hover {
   opacity: 0.7;
 }
-.card-text{
-    word-break: break-all;
+.card-text {
+  word-break: break-all;
 }
 
 /* image */
-.review-img{
-    top: -50px;
-    margin-left: 30px;
-    margin-bottom: -30px;
+.review-img {
+  top: -50px;
+  margin-left: 30px;
+  margin-bottom: -30px;
 }
-.review-date{
-    font-size: 14px;
-    margin-left: 10px;
+.review-date {
+  font-size: 14px;
+  margin-left: 10px;
 }
 /* stars */
-.fa-star{
-    color: rgb(255, 162, 1);
-    font-size: 25px;
-    margin-right: 5px;
-    margin-top: 10px;
+.fa-star {
+  color: rgb(255, 162, 1);
+  font-size: 25px;
+  margin-right: 5px;
+  margin-top: 10px;
 }
-.hide{
-    display:block;
+.hide {
+  display: block;
 }
 @media (max-width: 768px) {
-.hide{
+  .hide {
     display: none;
     height: 0px;
-}
-.review-card{
+  }
+  .review-card {
     min-height: 340px;
-}
+  }
 }
 /* reviews section ends */
 
 /* why nyc section starts here */
-.why-nyc{
+.why-nyc {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../images/background.png);
-  background-color:#a9adb6 ;
-
+  background-color: #a9adb6;
 }
-.why-nyc-image-div{
+.why-nyc-image-div {
   margin-top: 6rem;
 }
 
 ol li {
   list-style-type: none;
-
 }
 ol li:before {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url(../images/images.jpg);
 
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-background: url(../images/images.jpg);
-
-text-align: center;
+  text-align: center;
 }
- @media (max-width: 425px) {
-.font-3{
-font-size: 14px;
+@media (max-width: 425px) {
+  .font-3 {
+    font-size: 14px;
+  }
+  .font-4 {
+    font-size: 12px;
+    color: #3f3e3e;
+  }
 }
-.font-4{
-  font-size: 12px;
-  color: #3f3e3e;
+
+/* why nyc style end here */
+
+/* Retail Locations and Service Area starts here */
+.retail-location {
+  background-color: #f3f3f5;
+}
+.retail-header {
+  margin: 5rem 0 2rem 0;
+}
+.service-area {
+  letter-spacing: 1.5px;
+}
+.retail-location-map {
+  margin-bottom: 7rem;
+}
+.retail-loc {
+  display: none;
 }
 
-  
+@media (max-width: 768px) {
+  .location-map {
+    width: 22rem;
+  }
+  .service-area {
+    font-size: 15px;
+  }
+  .last-service-area {
+    width: 8rem;
+  }
+}
+@media (max-width: 425px) {
+  .retail-text {
+    font-size: 18px !important;
+  }
+  .service-area {
+    font-size: 13px;
   }
 
-  /* why nyc style end here */
-
-  /* Retail Locations and Service Area starts here */
-  .retail-location{
-    background-color: #f3f3f5;
-  }
-  .retail-header{
-    margin: 5rem 0 2rem 0;
-  }
-  .service-area{
-    letter-spacing: 1.5px;
-  }
-  .retail-location-map {
-    margin-bottom: 7rem;
-  }
-  .retail-loc {
-    display: none;
-  }
-
+Benedict
+  .last-retail-service {
+    margin-bottom: 30px;
+    
   @media (max-width:768px) {
     .location-map {
       width: 22rem;
@@ -454,85 +525,97 @@ font-size: 14px;
   .price-tag{
     padding-top: 50px;
  
- 
-  }
-  .pric-tag h2{
-    padding: 100%;
-    font-size: 25px;
-    font-weight: 700;
-  }
-  .price-width{
-  width: 63%;
-  }
-  
-  .price-header input{
-    width: 300px;
-    padding: 12px ;
-    border: none;
-  }
-  .price-header .get-price{
-    width: 150px !important;
-    background-color:#30588b ;
-    color: white;
-    font-weight: 700;
-    font-size: 25px;
-  }
-  .price-table-header{
-    background-color:#30588b ;
-    color: white;
-  }
-  .hidden{
-    display: none ;
-
-  }
-  .display-1{
- display: none;
-  }
-  .price-font{
-    font-size: 30px;
-    color: rgba(29,29,29,.7);
-  }
-   @media (max-width: 768px) {
-.price-list{
-    background-color: #ff8a00;
-    padding: 70px 20px 150px 20px;
-  }
-   .price-width{
-  width: 90%;
+ development
   }
 }
-  @media (max-width: 425px) {
- .price-header input{
+@media (max-width: 320px) {
+  .location-map {
+    width: 275px;
+  }
+}
+/* Retail Locations and Service Area Ends here */
 
-    padding: 10px ;
-    border: none;
-  }
-    .price-header .get-price{
-    font-size: 14px;
-  }
-   .price-width{
-  width: 100%;
-  }
-  .price-list{
+/* price list section starts here */
+.price-list {
+  background-color: #ff8a00;
+  padding: 70px 150px 150px 150px;
+}
+.price-tag {
+  padding-top: 50px;
+}
+.pric-tag h2 {
+  padding: 100%;
+  font-size: 25px;
+  font-weight: 700;
+}
+.price-width {
+  width: 63%;
+}
+
+.price-header input {
+  width: 300px;
+  padding: 12px;
+  border: none;
+}
+.price-header .get-price {
+  width: 150px !important;
+  background-color: #30588b;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+.price-table-header {
+  background-color: #30588b;
+  color: white;
+}
+.hidden {
+  display: none;
+}
+.display-1 {
+  display: none;
+}
+.price-font {
+  font-size: 30px;
+  color: rgba(29, 29, 29, 0.7);
+}
+@media (max-width: 768px) {
+  .price-list {
     background-color: #ff8a00;
     padding: 70px 20px 150px 20px;
   }
+  .price-width {
+    width: 90%;
   }
-  @media (max-width: 320px) {
- .price-header input{
-
-    padding: 8px ;
+}
+@media (max-width: 425px) {
+  .price-header input {
+    padding: 10px;
     border: none;
   }
-    .price-header .get-price{
+  .price-header .get-price {
+    font-size: 14px;
+  }
+  .price-width {
+    width: 100%;
+  }
+  .price-list {
+    background-color: #ff8a00;
+    padding: 70px 20px 150px 20px;
+  }
+}
+@media (max-width: 320px) {
+  .price-header input {
+    padding: 8px;
+    border: none;
+  }
+  .price-header .get-price {
     font-size: 13px;
   }
-   .price-width{
-  width: 100%;
+  .price-width {
+    width: 100%;
   }
-  .price-list{
+  .price-list {
     background-color: #ff8a00;
     padding: 70px 10px 150px 10px;
   }
-  }
-
+}
