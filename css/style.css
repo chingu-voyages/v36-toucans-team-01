@@ -443,10 +443,12 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/background.png);
-  background-color: #a9adb6;
+    background-color: rgb(133, 182, 214, 0.5);
   padding: 100px 0px;
 }
+/* .how-nyc-works{
+    background-color: rgb(133, 182, 214, 0.5);
+} */
 
 .container-fluid {
   max-width: 1360px;
@@ -674,3 +676,152 @@ ol li:before {
 }
 
 /* Retail Locations and Service Area Ends here */
+
+/* body {
+	background-color: #6DC4F4;
+}h1 { 
+     color:white;
+ 
+} */
+
+/* faq section starts here */
+
+button.accordion {
+  width: 100%;
+  background-color: whitesmoke;
+  border: none;
+  outline: none;
+  text-align: left;
+
+ 
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+      margin:15px 0px 15px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px 20px;
+    color: #6b6a6a;
+    font-size: 21px;
+    font-family: "Barlow Condensed",sans-serif;
+    letter-spacing: 1px;
+    background-color: #fff;
+    font-weight: 700;
+    border-radius: 7px;
+    box-shadow: 0px 3px 2px 2px #e2e0e0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+button.accordion:after {
+  font-family: FontAwesome;
+  content: "\f067";
+  font-family: "fontawesome";
+  font-size: 18px;
+  float: right;
+}
+
+button.accordion.is-open:after {
+  content: "\f068";
+}
+.faq-sect{
+  padding-bottom: 10rem !important;
+}
+.accordion-content {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
+}
+.accordion-content p{
+      padding: 0 24px;
+    letter-spacing: normal;
+    color: #383636;
+    font-size: 18px;
+}
+
+.faq-section {
+  background-color: rgb(133, 182, 214, 0.5);
+}
+
+
+
+.custom-counter li {
+  counter-increment: step-counter;
+  margin-bottom: 10px;
+}
+
+.custom-counter li::before {
+  content: counter(step-counter);
+   padding: 3px 8px;
+}
+.faq-section h2{
+  font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    letter-spacing: 0em;
+    font-family: Roboto Slab;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    letter-spacing: .05em;
+    line-height: 1.2em;
+    text-transform: none;
+}
+.faq-title{
+      font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    font-family: Roboto Slab;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 46px;
+    letter-spacing: .05em;
+    line-height: 1.4em;
+    text-transform: none;
+}
+.faq-title-p{
+      font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 1.6em;
+    font-family: muli;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: .05em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: rgba(29,29,29,.7);
+}
+
+@media (max-width: 768px) {
+button.accordion {
+    font-size: 18px;
+}
+
+button.accordion:after {
+  font-size: 12px;
+ 
+}
+
+}
+@media (max-width: 425px) {
+button.accordion {
+    font-size: 12px;
+
+}
+
+button.accordion:after {
+
+  font-size: 8px;
+}
+
+.accordion-content p{
+    
+    font-size: 16px;
+}
+
+.faq-section h2{
+    font-size: 18px;
+}
+}
