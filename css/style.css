@@ -135,10 +135,12 @@ header {
 .heropage-h2 {
   font-size: 2.5rem;
   color: #363636;
+  width: 50%;
 }
 
 .heropage-p {
   font-size: 1.4rem;
+  max-width: 500px;
 }
 
 .nyc-icon-color {
@@ -149,35 +151,56 @@ header {
   background-color: #30588b !important;
 }
 
-@media (max-width: 320px) {
+
+
+@media (max-width: 505px) {
   .heropage-text {
-    padding-top: 5rem;
+    padding: 9em 1em !important;
   }
-}
 
-@media (max-width: 425px) {
-
-  /* .heropage-text{
-         padding-top: 5rem;
-      } */
   .heropage-h2 {
-    font-size: 18px;
+    font-size: 16px;
+    width: 90%;
   }
 
   .heropage-p {
-    font-size: 13px;
+    font-size: 14px;
+    max-width: 360px;
+  }
+  .heropage-img {
+    background-size: 230%;
+    background-position: 50% 0;
+    max-height: 500px;
+  }
+
+  .heropage-button{
+    font-size: 14px;
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 505px) and (max-width:1000px) {
   .heropage-text {
-    padding-top: 5rem;
+    padding: 10em 2em !important;
   }
 
-  /* .heropage-h2{
-        word-wrap: none;
-      } */
+  .heropage-h2 {
+    font-size: 24px;
+    width: 50%;
+  }
+
+  .heropage-p {
+    font-size: 16px;
+    max-width: 230px;
+  }
+  .heropage-img {
+    background-size: 230%;
+    max-height: 700px;
+  }
+  .heropage-button{
+    font-size: 20px;
+  }
 }
+
 
 /* hero-page section ends */
 
@@ -188,8 +211,9 @@ header {
 
 .satisfaction-pTag {
   font-weight: 600;
-  font-size: 50px;
+  font-size: 40px;
   color: #30588b;
+
 }
 
 .star-icons {
@@ -199,15 +223,13 @@ header {
 }
 
 .satisfaction-text {
-  width: 50%;
-  margin-left: 17rem;
+  max-width: 430px;
   line-height: 2.5rem;
-  margin-bottom: 8rem;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
   .satisfaction-pTag {
-    font-weight: 600;
     font-size: 30px;
   }
 
@@ -218,15 +240,11 @@ header {
 
   .satisfaction-text {
     width: 70%;
-    margin-left: 6rem;
-    line-height: 2.5rem;
-    margin-bottom: 8rem;
   }
 }
 
 @media (max-width: 425px) {
   .satisfaction-pTag {
-    font-weight: 600;
     font-size: 18px;
   }
 
@@ -237,24 +255,22 @@ header {
 
   .satisfaction-text {
     width: 70%;
-    margin-left: 3rem;
     line-height: 2rem;
-    margin-bottom: 8rem;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
-@media (max-width: 375px) {
-  .satisfaction-pTag {
-    font-weight: 600;
-    font-size: 15px;
-  }
-}
 
-@media (max-width: 320px) {
+
+@media (max-width: 380px) {
   .satisfaction-pTag {
-    font-weight: 600;
-    font-size: 20px;
+    font-size: 13px;
+  }
+
+  .satisfaction-text {
+    font-size: 12px;
+    width: 90%;
+    line-height: 1.4rem;
   }
 }
 
@@ -446,6 +462,10 @@ header {
     background-color: rgb(133, 182, 214, 0.5);
   padding: 100px 0px;
 }
+/* .how-nyc-works{
+    background-color: rgb(133, 182, 214, 0.5);
+} */
+
 /* .how-nyc-works{
     background-color: rgb(133, 182, 214, 0.5);
 } */
@@ -668,9 +688,9 @@ ol li:before {
     }
   }
 
-  @media (max-width:320px) {
+  @media (max-width:350px) {
     .location-map {
-      width: 275px;
+      width: 100%;
     }
   }
 }
@@ -692,8 +712,6 @@ button.accordion {
   border: none;
   outline: none;
   text-align: left;
-
- 
   cursor: pointer;
   transition: background-color 0.2s linear;
       margin:15px 0px 15px;
