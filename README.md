@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[<img width="1432" alt="Screenshot 2022-01-29 at 12 17 37" src="https://user-images.githubusercontent.com/90143819/151660702-65fd4519-8c7c-4ceb-a0f2-f496ec6a81da.png">](https://www.drycleannyc.com/)
+[<img width="1432" alt="Screenshot 2022-01-29 at 12 17 37" src="https://user-images.githubusercontent.com/90143819/151660702-65fd4519-8c7c-4ceb-a0f2-f496ec6a81da.png">](https://drycleannyc-clone.netlify.app/)
 
 
 This project is a clone of [Dry Clean NYC](https://www.drycleannyc.com/). Our motivation behind this project was to improve our team working and development skills. 
@@ -25,7 +25,7 @@ See the [open issues](https://github.com/chingu-voyages/v36-toucans-team-01/issu
 
 This run the website use one of the following methods:
 * Clone the project and compile it yourself
-* Use this live link - [Dry Clean NYC](https://www.drycleannyc.com/)
+* Use this live link - [Dry Clean NYC](https://drycleannyc-clone.netlify.app/)
 
 
 ## 🤝 Contributors
