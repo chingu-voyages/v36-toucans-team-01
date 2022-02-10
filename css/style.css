@@ -7,7 +7,6 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   vertical-align: middle;
-  /* display: inline-block; */
 }
 .font-2 {
   font-size: 14px;
@@ -32,7 +31,6 @@
   font-weight: 700;
 }
 .nav-small {
-  /* font-family: Arial,Helvetica,sans-serif; */
   letter-spacing: 0em;
   line-height: 1em;
   font-family: Rubik;
@@ -61,7 +59,6 @@
   background: #272835;
   padding: 20px 0px;
   height: 400px;
-  /* padding-top: 10% */
 }
 
 .footer-container {
@@ -123,9 +120,6 @@
   }
 }
 @media (max-width: 425px) {
-  /* .heropage-text{
-         padding-top: 5rem;
-      } */
   .heropage-h2 {
     font-size: 18px;
   }
@@ -169,9 +163,6 @@
   }
 }
 @media (max-width: 425px) {
-  /* .heropage-text{
-         padding-top: 5rem;
-      } */
   .heropage-h2 {
     font-size: 18px;
   }
@@ -183,9 +174,6 @@
   .heropage-text {
     padding-top: 7rem;
   }
-  /* .heropage-h2{
-        word-wrap: none;
-      } */
 }
 
 /* hero-page section ends */
@@ -280,7 +268,6 @@
   vertical-align: middle;
   padding-top: 9px;
 }
-
 .nyc-base-footer {
   margin-bottom: 10rem;
 }
@@ -303,7 +290,6 @@
     overflow-y: hidden;
   }
 }
-
 @media (max-width: 425px) {
   .nyc-display-img {
     width: 13rem;
@@ -345,7 +331,6 @@
   padding: 200px 5%;
   background-color: #f1f1f3;
 }
-
 /* indicators */
 .carousel-indicators {
   margin-bottom: -100px;
