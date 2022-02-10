@@ -117,7 +117,7 @@ header {
 
 /* hero-page section */
 .heropage-img {
-  background-image: url(../images/hero.png);
+  background-image: url(../images/hero.png) ;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -150,12 +150,15 @@ header {
 .heropage-button {
   background-color: #30588b !important;
 }
+.heropage-button:hover{
+  opacity: 0.5;
+}
 
 
 
 @media (max-width: 505px) {
   .heropage-text {
-    padding: 9em 1em !important;
+    padding: 3em 1em !important;
   }
 
   .heropage-h2 {
@@ -180,7 +183,7 @@ header {
 
 @media (min-width: 505px) and (max-width:1000px) {
   .heropage-text {
-    padding: 10em 2em !important;
+    padding: 4em 2em !important;
   }
 
   .heropage-h2 {
@@ -245,9 +248,11 @@ header {
 
 @media (max-width: 425px) {
   .satisfaction-pTag {
-    font-size: 18px;
+    font-size: 30px;
   }
-
+.satisfaction-guarateed {
+  margin-top: 0.5rem;
+}
   .star-icons {
     font-size: 20px;
     margin: 5px;
@@ -263,15 +268,18 @@ header {
 
 
 @media (max-width: 380px) {
-  .satisfaction-pTag {
+  /* .satisfaction-pTag {
     font-size: 13px;
-  }
+  } */
 
   .satisfaction-text {
     font-size: 12px;
     width: 90%;
     line-height: 1.4rem;
   }
+  .satisfaction-guarateed {
+  margin-top: 0.01rem;
+}
 }
 
 /* * 100% Satisfaction Guaranteed Ends */
@@ -309,6 +317,9 @@ header {
 
 .nyc-base-footer {
   margin-bottom: 10rem;
+}
+.nyc-arrow:hover{
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {
@@ -843,3 +854,5 @@ button.accordion:after {
     font-size: 18px;
 }
 }
+
+/* styel */
