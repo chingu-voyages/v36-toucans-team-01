@@ -114,7 +114,7 @@ header {
 
 /* hero-page section */
 .heropage-img {
-  background-image: url(../images/hero.png) ;
+  background-image: url(../images/hero.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -147,11 +147,10 @@ header {
 .heropage-button {
   background-color: #30588b !important;
 }
-.heropage-button:hover{
+
+.heropage-button:hover {
   opacity: 0.5;
 }
-
-
 
 @media (max-width: 505px) {
   .heropage-text {
@@ -167,13 +166,14 @@ header {
     font-size: 14px;
     max-width: 360px;
   }
+
   .heropage-img {
     background-size: 230%;
     background-position: 50% 0;
     max-height: 500px;
   }
 
-  .heropage-button{
+  .heropage-button {
     font-size: 14px;
   }
 }
@@ -192,11 +192,13 @@ header {
     font-size: 16px;
     max-width: 230px;
   }
+
   .heropage-img {
     background-size: 230%;
     max-height: 700px;
   }
-  .heropage-button{
+
+  .heropage-button {
     font-size: 20px;
   }
 }
@@ -205,74 +207,7 @@ header {
 
 /* hero-page section ends */
 
-/* hero-page section */
 
-.nyc-icon-color {
-  color: #13478abe;
-}
-
-.heropage-button {
-  background-color: #30588b !important;
-}
-.heropage-button:hover{
-  opacity: 0.5;
-}
-
-
-
-@media (max-width: 505px) {
-  .heropage-text {
-    padding: 3em 1em !important;
-  }
-
-}
-@media (max-width: 425px) {
-
-  .heropage-h2 {
-    font-size: 16px;
-    width: 90%;
-  }
-
-  .heropage-p {
-    font-size: 14px;
-    max-width: 360px;
-  }
-  .heropage-img {
-    background-size: 230%;
-    background-position: 50% 0;
-    max-height: 500px;
-  }
-
-  .heropage-button{
-    font-size: 14px;
-  }
-}
-
-@media (min-width: 505px) and (max-width:1000px) {
-  .heropage-text {
-    padding: 4em 2em !important;
-  }
-
-  .heropage-h2 {
-    font-size: 24px;
-    width: 50%;
-  }
-
-  .heropage-p {
-    font-size: 16px;
-    max-width: 230px;
-  }
-  .heropage-img {
-    background-size: 230%;
-    max-height: 700px;
-  }
-  .heropage-button{
-    font-size: 20px;
-  }
-}
-
-
-/* hero-page section ends */
 
 /* 100% Satisfaction Guaranteed starts */
 .satisfaction-guarateed {
@@ -317,9 +252,11 @@ header {
   .satisfaction-pTag {
     font-size: 30px;
   }
-.satisfaction-guarateed {
-  margin-top: 0.5rem;
-}
+
+  .satisfaction-guarateed {
+    margin-top: 0.5rem;
+  }
+
   .star-icons {
     font-size: 20px;
     margin: 5px;
@@ -335,18 +272,16 @@ header {
 
 
 @media (max-width: 380px) {
-  /* .satisfaction-pTag {
-    font-size: 13px;
-  } */
 
   .satisfaction-text {
     font-size: 12px;
     width: 90%;
     line-height: 1.4rem;
   }
+
   .satisfaction-guarateed {
-  margin-top: 0.01rem;
-}
+    margin-top: 0.01rem;
+  }
 }
 
 /* * 100% Satisfaction Guaranteed Ends */
@@ -381,10 +316,12 @@ header {
   vertical-align: middle;
   padding-top: 9px;
 }
+
 .nyc-base-footer {
   margin-bottom: 10rem;
 }
-.nyc-arrow:hover{
+
+.nyc-arrow:hover {
   opacity: 0.5;
 }
 
@@ -411,6 +348,7 @@ header {
     overflow-y: hidden;
   }
 }
+
 @media (max-width: 425px) {
   .nyc-display-img {
     width: 13rem;
@@ -457,6 +395,7 @@ header {
   padding: 100px 8% 200px 8%;
   background-color: #f1f1f3;
 }
+
 /* indicators */
 .carousel-indicators {
   margin-bottom: -100px;
@@ -534,16 +473,9 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-    background-color: rgb(133, 182, 214, 0.5);
+  background-color: rgb(133, 182, 214, 0.5);
   padding: 100px 0px;
 }
-/* .how-nyc-works{
-    background-color: rgb(133, 182, 214, 0.5);
-} */
-
-/* .how-nyc-works{
-    background-color: rgb(133, 182, 214, 0.5);
-} */
 
 .container-fluid {
   max-width: 1360px;
@@ -558,7 +490,6 @@ ol li:before {
   background-size: cover;
   background-repeat: no-repeat;
   background: url(../images/images.jpg);
-
   text-align: center;
 }
 
@@ -772,13 +703,6 @@ ol li:before {
 
 /* Retail Locations and Service Area Ends here */
 
-/* body {
-	background-color: #6DC4F4;
-}h1 { 
-     color:white;
- 
-} */
-
 /* faq section starts here */
 
 button.accordion {
@@ -789,19 +713,19 @@ button.accordion {
   text-align: left;
   cursor: pointer;
   transition: background-color 0.2s linear;
-      margin:15px 0px 15px;
-    border-top: 1px solid #f4f4f4;
-    padding: 10px 20px;
-    color: #6b6a6a;
-    font-size: 21px;
-    font-family: "Barlow Condensed",sans-serif;
-    letter-spacing: 1px;
-    background-color: #fff;
-    font-weight: 700;
-    border-radius: 7px;
-    box-shadow: 0px 3px 2px 2px #e2e0e0;
-    position: relative;
-    text-transform: uppercase;
+  margin: 15px 0px 15px;
+  border-top: 1px solid #f4f4f4;
+  padding: 10px 20px;
+  color: #6b6a6a;
+  font-size: 21px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 1px;
+  background-color: #fff;
+  font-weight: 700;
+  border-radius: 7px;
+  box-shadow: 0px 3px 2px 2px #e2e0e0;
+  position: relative;
+  text-transform: uppercase;
 }
 
 button.accordion:after {
@@ -815,20 +739,23 @@ button.accordion:after {
 button.accordion.is-open:after {
   content: "\f068";
 }
-.faq-sect{
+
+.faq-sect {
   padding-bottom: 10rem !important;
 }
+
 .accordion-content {
   padding: 0 20px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
 }
-.accordion-content p{
-      padding: 0 24px;
-    letter-spacing: normal;
-    color: #383636;
-    font-size: 18px;
+
+.accordion-content p {
+  padding: 0 24px;
+  letter-spacing: normal;
+  color: #383636;
+  font-size: 18px;
 }
 
 .faq-section {
@@ -844,97 +771,99 @@ button.accordion.is-open:after {
 
 .custom-counter li::before {
   content: counter(step-counter);
-   padding: 3px 8px;
+  padding: 3px 8px;
 }
-.faq-section h2{
-  font-family: Arial,Helvetica,sans-serif;
-    font-size: 18px;
-    letter-spacing: 0em;
-    font-family: Roboto Slab;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 32px;
-    letter-spacing: .05em;
-    line-height: 1.2em;
-    text-transform: none;
+
+.faq-section h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0em;
+  font-family: Roboto Slab;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+  letter-spacing: .05em;
+  line-height: 1.2em;
+  text-transform: none;
 }
-.faq-title{
-      font-family: Arial,Helvetica,sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    letter-spacing: 0em;
-    line-height: 1.2em;
-    font-family: Roboto Slab;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 46px;
-    letter-spacing: .05em;
-    line-height: 1.4em;
-    text-transform: none;
+
+.faq-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  font-family: Roboto Slab;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  letter-spacing: .05em;
+  line-height: 1.4em;
+  text-transform: none;
 }
-.faq-title-p{
-      font-family: Arial,Helvetica,sans-serif;
-    font-size: 16px;
-    letter-spacing: 0em;
-    line-height: 1.6em;
-    font-family: muli;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    letter-spacing: .05em;
-    line-height: 1.8em;
-    text-transform: none;
-    color: rgba(29,29,29,.7);
+
+.faq-title-p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.6em;
+  font-family: muli;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: .05em;
+  line-height: 1.8em;
+  text-transform: none;
+  color: rgba(29, 29, 29, .7);
 }
 
 @media (max-width: 768px) {
-button.accordion {
+  button.accordion {
     font-size: 18px;
-}
+  }
 
-button.accordion:after {
-  font-size: 12px;
- 
-}
-
-}
-@media (max-width: 425px) {
-button.accordion {
+  button.accordion:after {
     font-size: 12px;
 
+  }
+
 }
 
-button.accordion:after {
+@media (max-width: 425px) {
+  button.accordion {
+    font-size: 12px;
 
-  font-size: 8px;
-}
+  }
 
-.accordion-content p{
-    
+  button.accordion:after {
+
+    font-size: 8px;
+  }
+
+  .accordion-content p {
+
     font-size: 16px;
-}
+  }
 
-.faq-section h2{
+  .faq-section h2 {
     font-size: 18px;
-}
+  }
 }
 
 /* styel */
-.mode{
-      /* height: 15vh;
-  background-color: rgba(182, 221, 197, 0.9);  */
-    position: relative;
-   /* position: fixed; */
-width: 3%;
-float: right;
-border-radius: 50%;
-}
-.modes{
+.mode {
+  position: relative;
+  width: 3%;
   float: right;
-  /* margin-left: 15rem; */
+  border-radius: 50%;
 }
-.modal-chat{
-    position: fixed;
+
+.modes {
+  float: right;
+}
+
+.modal-chat {
+  position: fixed;
   bottom: 0;
   right: 0;
   margin: 2%;
@@ -943,32 +872,24 @@ border-radius: 50%;
   font-size: 25px;
 
 }
+
 .modal-backdrop.show {
-    /* opacity: .5; */
-    opacity:0;
+  opacity: 0;
 }
-/* .modal-width{
-  width: 40% !important;
-} */
-.modal{
+
+
+.modal {
   position: fixed !important;
-  /* bottom: 0 !important; */
-  /* right: 0 !important; */
-  margin: 2% 20%  0%  30% !important;
-  /* left: 0% !important; */
-  /* float: right !important; */
+  margin: 2% 20% 0% 30% !important;
 }
-.modal-p{
-margin-top: 60px !important;
+
+.modal-p {
+  margin-top: 60px !important;
 }
 
 @media (max-width: 425px) {
-.modal{
-  position: fixed !important;
-  /* bottom: 0 !important; */
-  /* right: 0 !important; */
-  margin: 0% !important;
-  /* left: 0% !important; */
-  /* float: right !important; */
-}
+  .modal {
+    position: fixed !important;
+    margin: 0% !important;
+  }
 }

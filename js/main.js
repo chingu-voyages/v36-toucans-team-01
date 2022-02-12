@@ -1,5 +1,5 @@
 // price tag script starts here
-var button = document.getElementById("mybutton");
+let button = document.getElementById("mybutton");
 
 function btnClick(event) {
   textValue = document.getElementById("text").value;
