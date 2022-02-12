@@ -3,49 +3,89 @@ body{
 }
 /* Sign up Page */
 .signUp-logo {
-    height: 100px !important;
+  height: 100px !important;
 }
 
 .signUp-form {
-    max-width: 31.25rem;
-    box-shadow: 0px 1px 3px rgb(100 100 100 / 65%);
+  max-width: 31.25rem;
+  box-shadow: 0px 1px 3px rgb(100 100 100 / 65%);
 }
 
 .btn-signUp > a {
+ Benedict
+  padding: 10px 12px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 12px;
     padding: 6px ;
     text-decoration: none;
     border: 1px solid black;
+development
 }
 
 /* cancel button */
 .btn-cancel {
+
+  color: black;
+  transition: 0.2s ease-in-out;
    color: black;
    transition: .2s ease-in-out;
    border: none;
+
 }
 
 .btn-cancel:hover {
-    color: white;
-    background-color: #325D88;
-    transition: .2s ease-in-out;
- }
+  color: white;
+  background-color: #325d88;
+  transition: 0.2s ease-in-out;
+}
 
- /* continue button */
+/* continue button */
 
- .btn-continue:hover {
-    color: white;
-    background-color: #1e3852;
-    transition: .2s ease-in-out;
- }
- 
- .btn-continue {
-     color: white;
-     background-color: #325D88;
-     transition: .2s ease-in-out;
-  }
+.btn-continue:hover {
+  color: white;
+  background-color: #1e3852;
+  transition: 0.2s ease-in-out;
+}
 
+.btn-continue {
+  color: white;
+  background-color: #325d88;
+  transition: 0.2s ease-in-out;
+}
 
 /* sign up / sign in footer */
+
+.footer-text {
+  font-size: 13px;
+  line-height: 0.2rem;
+}
+
+/* Sign In page */
+.btn-signIn {
+  border-radius: 0px;
+  border: 1px black solid;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.accordion {
+  width: 500px;
+  padding: 30px 100px;
+  box-shadow: 0px 1px 3px rgb(100 100 100 / 65%);
+}
+
+.btn-send {
+  border-radius: 0px;
+  border: 1px solid;
+  color: #333;
+  background-color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+
 
 
 /* Sign In page */
@@ -85,3 +125,4 @@ body{
     box-shadow: 0px 1px 3px rgb(100 100 100 / 65%);
 }
 }
+

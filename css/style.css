@@ -8,7 +8,6 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
   vertical-align: middle;
-  /* display: inline-block; */
 }
 
 .font-2 {
@@ -44,7 +43,6 @@ header {
 }
 
 .nav-small {
-  /* font-family: Arial,Helvetica,sans-serif; */
   letter-spacing: 0em;
   line-height: 1em;
   font-family: Rubik;
@@ -75,7 +73,6 @@ header {
   background: #272835;
   padding: 20px 0px;
   height: 400px;
-  /* padding-top: 10% */
 }
 
 .footer-container {
@@ -143,6 +140,32 @@ header {
   max-width: 500px;
 }
 
+@media (max-width: 320px) {
+  .heropage-text {
+    padding-top: 5rem;
+  }
+}
+@media (max-width: 425px) {
+  .heropage-h2 {
+    font-size: 18px;
+  }
+  .heropage-p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 375px) {
+  .heropage-text {
+    padding-top: 5rem;
+  }
+  /* .heropage-h2{
+        word-wrap: none;
+      } */
+}
+
+/* hero-page section ends */
+
+/* hero-page section */
+
 .nyc-icon-color {
   color: #13478abe;
 }
@@ -160,6 +183,9 @@ header {
   .heropage-text {
     padding: 3em 1em !important;
   }
+
+}
+@media (max-width: 425px) {
 
   .heropage-h2 {
     font-size: 16px;
@@ -314,7 +340,6 @@ header {
   vertical-align: middle;
   padding-top: 9px;
 }
-
 .nyc-base-footer {
   margin-bottom: 10rem;
 }
@@ -345,7 +370,6 @@ header {
     overflow-y: hidden;
   }
 }
-
 @media (max-width: 425px) {
   .nyc-display-img {
     width: 13rem;
@@ -392,7 +416,6 @@ header {
   padding: 100px 8% 200px 8%;
   background-color: #f1f1f3;
 }
-
 /* indicators */
 .carousel-indicators {
   margin-bottom: -100px;
