@@ -23,7 +23,7 @@ See the [open issues](https://github.com/chingu-voyages/v36-toucans-team-01/issu
 
 ## 💾 Getting Started
 
-This run the website use one of the following methods:
+To run the website locally, use one of the following methods:
 * Clone the project and compile it yourself
 * Use this live link - [Dry Clean NYC](https://drycleannyc-clone.netlify.app/)
 

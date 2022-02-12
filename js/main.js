@@ -1,14 +1,8 @@
 // price tag script starts here
-
-
-// console.clear();
-
-
 var button = document.getElementById("mybutton");
 
 function btnClick(event) {
   textValue = document.getElementById("text").value;
-  // console.log(textValue)
   if (
     textValue == 10040 ||
     textValue == 10037 ||
@@ -16,7 +10,6 @@ function btnClick(event) {
     textValue == 10461 ||
     textValue == 10031
   ) {
-    //event.preventDefault()
     document.getElementById("hidden").classList.remove("hidden");
     return false;
   } else {
